@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+#temp data
+out.tmp
+
+#ARTEM
+ARTEM
+
 # Distribution / packaging
 .Python
 build/

@@ -1,0 +1,2886 @@
+#\#CIF_1.1
+# mmCIF
+data_8t2s
+#
+_entry.id 8T2S
+#
+_audit_conform.dict_name mmcif_pdbx.dic
+_audit_conform.dict_version 4.007
+_audit_conform.dict_location http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic
+#
+_audit_syntax.case_sensitive_flag Y
+_audit_syntax.fixed_width "atom_site atom_site_anisotrop"
+#
+loop_
+_citation.abstract
+_citation.abstract_id_CAS
+_citation.book_id_ISBN
+_citation.book_publisher
+_citation.book_publisher_city
+_citation.book_title
+_citation.coordinate_linkage
+_citation.country
+_citation.database_id_Medline
+_citation.details
+_citation.id
+_citation.journal_abbrev
+_citation.journal_id_ASTM
+_citation.journal_id_CSD
+_citation.journal_id_ISSN
+_citation.journal_full
+_citation.journal_issue
+_citation.journal_volume
+_citation.language
+_citation.page_first
+_citation.page_last
+_citation.title
+_citation.year
+_citation.database_id_CSD
+_citation.pdbx_database_id_DOI
+_citation.pdbx_database_id_PubMed
+_citation.pdbx_database_id_patent
+_citation.unpublished_flag
+?
+? ? ? ? ? ? UK ? ? primary Nature NATUAS 0006 1476-4687 ? ? 624 ? 682 688 
+;Structural insights into intron catalysis and dynamics during splicing.
+;
+ 2023 ? 10.1038/s41586-023-06746-6 37993708 ? ?
+? ? ? ? ? ? ? ? ? ? chimerax "Protein Sci." ? ? ? ? 1 30 ? 70 82 
+;UCSF ChimeraX: Structure visualization for researchers, educators, and developers
+;
+ 2021 ? 10.1002/pro.3943 28710774 ? ?
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+_citation_author.identifier_ORCID
+primary  "Xu, L."       1 ? 
+primary  "Liu, T."      2 ? 
+primary  "Chung, K."    3 ? 
+primary  "Pyle, A.M."   4 ? 
+chimerax "Pettersen EF" 1 ? 
+chimerax "Goddard TD"   2 ? 
+chimerax "Huang CC"     3 ? 
+chimerax "Meng EC"      4 ? 
+chimerax "Couch GS"     5 ? 
+chimerax "Croll TI"     6 ? 
+chimerax "Morris JH"    7 ? 
+chimerax "Ferrin TE"    8 ? 
+#
+_software.name "UCSF ChimeraX"
+_software.version 1.7/v10
+_software.location https://www.rbvi.ucsf.edu/chimerax/
+_software.classification "model building"
+_software.os Linux
+_software.type package
+_software.citation_id chimerax
+_software.pdbx_ordinal 1
+#
+loop_
+_chem_comp.id
+_chem_comp.type
+_chem_comp.name
+SER "L-peptide linking" SERINE                       
+ASN "L-peptide linking" ASPARAGINE                   
+LEU "L-peptide linking" LEUCINE                      
+MET "L-peptide linking" METHIONINE                   
+GLU "L-peptide linking" "GLUTAMIC ACID"              
+GLN "L-peptide linking" GLUTAMINE                    
+ILE "L-peptide linking" ISOLEUCINE                   
+ASP "L-peptide linking" "ASPARTIC ACID"              
+ARG "L-peptide linking" ARGININE                     
+ALA "L-peptide linking" ALANINE                      
+TYR "L-peptide linking" TYROSINE                     
+VAL "L-peptide linking" VALINE                       
+LYS "L-peptide linking" LYSINE                       
+GLY "peptide linking"   GLYCINE                      
+THR "L-peptide linking" THREONINE                    
+HIS "L-peptide linking" HISTIDINE                    
+PRO "L-peptide linking" PROLINE                      
+PHE "L-peptide linking" PHENYLALANINE                
+CYS "L-peptide linking" CYSTEINE                     
+TRP "L-peptide linking" TRYPTOPHAN                   
+G   "RNA linking"       "GUANOSINE-5'-MONOPHOSPHATE" 
+A   "RNA linking"       "ADENOSINE-5'-MONOPHOSPHATE" 
+C   "RNA linking"       "CYTIDINE-5'-MONOPHOSPHATE"  
+U   "RNA linking"       "URIDINE-5'-MONOPHOSPHATE"   
+CA  non-polymer         "CALCIUM ION"                
+NH4 non-polymer         "AMMONIUM ION"               
+#
+_exptl.absorpt_coefficient_mu ?
+_exptl.absorpt_correction_T_max ?
+_exptl.absorpt_correction_T_min ?
+_exptl.absorpt_correction_type ?
+_exptl.absorpt_process_details ?
+_exptl.entry_id 8T2S
+_exptl.crystals_number ?
+_exptl.details ?
+_exptl.method "ELECTRON MICROSCOPY"
+_exptl.method_details ?
+#
+loop_
+_entity.id
+_entity.type
+_entity.pdbx_description
+1 polymer     "Group II intron reverse transcriptase/maturase" 
+2 polymer     "RNA (551-MER)"                                  
+3 non-polymer "CALCIUM ION"                                    
+4 non-polymer "AMMONIUM ION"                                   
+#
+loop_
+_entity_poly.entity_id
+_entity_poly.nstd_monomer
+_entity_poly.type
+_entity_poly.pdbx_seq_one_letter_code_can
+1
+no polypeptide(L) 
+;MDTSNLMEQILSSDNLNRAYLQVVRNKGAEGVDGMKYTELKEHLAKNGETIKGQLRTRKYKPQPARRVEIPKPDGGVRNLGVPTVTDRFIQQAIAQVLTPIYEEQFHDHSYGFRPNRCAQQAILTALNIMNDGNDWIVDIDLEKFFDTVNHDKLMTLIGRTIKDGDVISIVRKYLVSGIMIDDEYEDSIVGTPQGGNLSPLLANIMLNELDKEMEKRGLNFVRYADDCIIMVGSEMSANRVMRNISRFIEEKLGLKVNMTKSKVDRPSGLKYLGFGFYFDPRAHQFKAKPHAKSVAKFKKRMKELTCRSWGVSNSYKVEKLNQLIRGWINYFKIGSMKTLCKELDSRIRYRLRMCIWKQWKTPQNQEKNLVKLGIDRNTARRVAYTGKRIAYVCNKGAVNVAISNKRLASFGLISMLDYYIEKCVTC
+;
+
+2 no polydeoxyribonucleotide 
+;GAGCUCAUUUCUUUGUUUGCGCGCCAUGGGCGCGCUCUAACGGGUGUAAGUCCCGAACAUGCCCAGGUAGUGGGAAAUGUAUAGCCGAACAGCAAGGGUGUCUACUGUGAGGUGGAAUCUGAAGGAAGCUGUAAGCGAAUCUCUGGUCCGACGGACAGAAAUCGCAUAUAAGGCUAGGCUUCGAGUGAUAAGCUGGCAAAGAACAGUGAAGUCUAAUAACUACCACGUUUGUAGAAGCAGAGUAAAUGCGGCGGAUAUAUGGAGAGAAAGAGCGUGCACCUUAAGCGUGGAGGUCUCACAGAGGUUUCAUUAGCCUAGUAACAACGAACUGUGAGAAGUCAGCCGAGCCCAUAGUAGUGAAGAAGUCUCUGUAAUGGGGAUGGAGCGAAGGGGCGAACAAUCAAUCAGUUUGAGAAUGUCUCGUAUUGCAGAAAUGACAACAUCUGCCGUAACCAAUCGGGUAAAAGGUGGUCAAAUCAAGCGAGACGGAAAGGAAAGAACGCAUGGACACAAGUAAUCUAAUUUCGGUUAGAUUACUACAUCGAAAAGUGUGUUACUUGUUAAAUUGAUUGAACCGCCGUAUACGGAACCGUACGUACGGUGGUGUGAGAGGUCGGAAUUUCUCAAUUAAGAGAAAUUCUUCCUACUCGAU
+;
+
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+1 1   MET 
+1 2   ASP 
+1 3   THR 
+1 4   SER 
+1 5   ASN 
+1 6   LEU 
+1 7   MET 
+1 8   GLU 
+1 9   GLN 
+1 10  ILE 
+1 11  LEU 
+1 12  SER 
+1 13  SER 
+1 14  ASP 
+1 15  ASN 
+1 16  LEU 
+1 17  ASN 
+1 18  ARG 
+1 19  ALA 
+1 20  TYR 
+1 21  LEU 
+1 22  GLN 
+1 23  VAL 
+1 24  VAL 
+1 25  ARG 
+1 26  ASN 
+1 27  LYS 
+1 28  GLY 
+1 29  ALA 
+1 30  GLU 
+1 31  GLY 
+1 32  VAL 
+1 33  ASP 
+1 34  GLY 
+1 35  MET 
+1 36  LYS 
+1 37  TYR 
+1 38  THR 
+1 39  GLU 
+1 40  LEU 
+1 41  LYS 
+1 42  GLU 
+1 43  HIS 
+1 44  LEU 
+1 45  ALA 
+1 46  LYS 
+1 47  ASN 
+1 48  GLY 
+1 49  GLU 
+1 50  THR 
+1 51  ILE 
+1 52  LYS 
+1 53  GLY 
+1 54  GLN 
+1 55  LEU 
+1 56  ARG 
+1 57  THR 
+1 58  ARG 
+1 59  LYS 
+1 60  TYR 
+1 61  LYS 
+1 62  PRO 
+1 63  GLN 
+1 64  PRO 
+1 65  ALA 
+1 66  ARG 
+1 67  ARG 
+1 68  VAL 
+1 69  GLU 
+1 70  ILE 
+1 71  PRO 
+1 72  LYS 
+1 73  PRO 
+1 74  ASP 
+1 75  GLY 
+1 76  GLY 
+1 77  VAL 
+1 78  ARG 
+1 79  ASN 
+1 80  LEU 
+1 81  GLY 
+1 82  VAL 
+1 83  PRO 
+1 84  THR 
+1 85  VAL 
+1 86  THR 
+1 87  ASP 
+1 88  ARG 
+1 89  PHE 
+1 90  ILE 
+1 91  GLN 
+1 92  GLN 
+1 93  ALA 
+1 94  ILE 
+1 95  ALA 
+1 96  GLN 
+1 97  VAL 
+1 98  LEU 
+1 99  THR 
+1 100 PRO 
+1 101 ILE 
+1 102 TYR 
+1 103 GLU 
+1 104 GLU 
+1 105 GLN 
+1 106 PHE 
+1 107 HIS 
+1 108 ASP 
+1 109 HIS 
+1 110 SER 
+1 111 TYR 
+1 112 GLY 
+1 113 PHE 
+1 114 ARG 
+1 115 PRO 
+1 116 ASN 
+1 117 ARG 
+1 118 CYS 
+1 119 ALA 
+1 120 GLN 
+1 121 GLN 
+1 122 ALA 
+1 123 ILE 
+1 124 LEU 
+1 125 THR 
+1 126 ALA 
+1 127 LEU 
+1 128 ASN 
+1 129 ILE 
+1 130 MET 
+1 131 ASN 
+1 132 ASP 
+1 133 GLY 
+1 134 ASN 
+1 135 ASP 
+1 136 TRP 
+1 137 ILE 
+1 138 VAL 
+1 139 ASP 
+1 140 ILE 
+1 141 ASP 
+1 142 LEU 
+1 143 GLU 
+1 144 LYS 
+1 145 PHE 
+1 146 PHE 
+1 147 ASP 
+1 148 THR 
+1 149 VAL 
+1 150 ASN 
+1 151 HIS 
+1 152 ASP 
+1 153 LYS 
+1 154 LEU 
+1 155 MET 
+1 156 THR 
+1 157 LEU 
+1 158 ILE 
+1 159 GLY 
+1 160 ARG 
+1 161 THR 
+1 162 ILE 
+1 163 LYS 
+1 164 ASP 
+1 165 GLY 
+1 166 ASP 
+1 167 VAL 
+1 168 ILE 
+1 169 SER 
+1 170 ILE 
+1 171 VAL 
+1 172 ARG 
+1 173 LYS 
+1 174 TYR 
+1 175 LEU 
+1 176 VAL 
+1 177 SER 
+1 178 GLY 
+1 179 ILE 
+1 180 MET 
+1 181 ILE 
+1 182 ASP 
+1 183 ASP 
+1 184 GLU 
+1 185 TYR 
+1 186 GLU 
+1 187 ASP 
+1 188 SER 
+1 189 ILE 
+1 190 VAL 
+1 191 GLY 
+1 192 THR 
+1 193 PRO 
+1 194 GLN 
+1 195 GLY 
+1 196 GLY 
+1 197 ASN 
+1 198 LEU 
+1 199 SER 
+1 200 PRO 
+1 201 LEU 
+1 202 LEU 
+1 203 ALA 
+1 204 ASN 
+1 205 ILE 
+1 206 MET 
+1 207 LEU 
+1 208 ASN 
+1 209 GLU 
+1 210 LEU 
+1 211 ASP 
+1 212 LYS 
+1 213 GLU 
+1 214 MET 
+1 215 GLU 
+1 216 LYS 
+1 217 ARG 
+1 218 GLY 
+1 219 LEU 
+1 220 ASN 
+1 221 PHE 
+1 222 VAL 
+1 223 ARG 
+1 224 TYR 
+1 225 ALA 
+1 226 ASP 
+1 227 ASP 
+1 228 CYS 
+1 229 ILE 
+1 230 ILE 
+1 231 MET 
+1 232 VAL 
+1 233 GLY 
+1 234 SER 
+1 235 GLU 
+1 236 MET 
+1 237 SER 
+1 238 ALA 
+1 239 ASN 
+1 240 ARG 
+1 241 VAL 
+1 242 MET 
+1 243 ARG 
+1 244 ASN 
+1 245 ILE 
+1 246 SER 
+1 247 ARG 
+1 248 PHE 
+1 249 ILE 
+1 250 GLU 
+1 251 GLU 
+1 252 LYS 
+1 253 LEU 
+1 254 GLY 
+1 255 LEU 
+1 256 LYS 
+1 257 VAL 
+1 258 ASN 
+1 259 MET 
+1 260 THR 
+1 261 LYS 
+1 262 SER 
+1 263 LYS 
+1 264 VAL 
+1 265 ASP 
+1 266 ARG 
+1 267 PRO 
+1 268 SER 
+1 269 GLY 
+1 270 LEU 
+1 271 LYS 
+1 272 TYR 
+1 273 LEU 
+1 274 GLY 
+1 275 PHE 
+1 276 GLY 
+1 277 PHE 
+1 278 TYR 
+1 279 PHE 
+1 280 ASP 
+1 281 PRO 
+1 282 ARG 
+1 283 ALA 
+1 284 HIS 
+1 285 GLN 
+1 286 PHE 
+1 287 LYS 
+1 288 ALA 
+1 289 LYS 
+1 290 PRO 
+1 291 HIS 
+1 292 ALA 
+1 293 LYS 
+1 294 SER 
+1 295 VAL 
+1 296 ALA 
+1 297 LYS 
+1 298 PHE 
+1 299 LYS 
+1 300 LYS 
+1 301 ARG 
+1 302 MET 
+1 303 LYS 
+1 304 GLU 
+1 305 LEU 
+1 306 THR 
+1 307 CYS 
+1 308 ARG 
+1 309 SER 
+1 310 TRP 
+1 311 GLY 
+1 312 VAL 
+1 313 SER 
+1 314 ASN 
+1 315 SER 
+1 316 TYR 
+1 317 LYS 
+1 318 VAL 
+1 319 GLU 
+1 320 LYS 
+1 321 LEU 
+1 322 ASN 
+1 323 GLN 
+1 324 LEU 
+1 325 ILE 
+1 326 ARG 
+1 327 GLY 
+1 328 TRP 
+1 329 ILE 
+1 330 ASN 
+1 331 TYR 
+1 332 PHE 
+1 333 LYS 
+1 334 ILE 
+1 335 GLY 
+1 336 SER 
+1 337 MET 
+1 338 LYS 
+1 339 THR 
+1 340 LEU 
+1 341 CYS 
+1 342 LYS 
+1 343 GLU 
+1 344 LEU 
+1 345 ASP 
+1 346 SER 
+1 347 ARG 
+1 348 ILE 
+1 349 ARG 
+1 350 TYR 
+1 351 ARG 
+1 352 LEU 
+1 353 ARG 
+1 354 MET 
+1 355 CYS 
+1 356 ILE 
+1 357 TRP 
+1 358 LYS 
+1 359 GLN 
+1 360 TRP 
+1 361 LYS 
+1 362 THR 
+1 363 PRO 
+1 364 GLN 
+1 365 ASN 
+1 366 GLN 
+1 367 GLU 
+1 368 LYS 
+1 369 ASN 
+1 370 LEU 
+1 371 VAL 
+1 372 LYS 
+1 373 LEU 
+1 374 GLY 
+1 375 ILE 
+1 376 ASP 
+1 377 ARG 
+1 378 ASN 
+1 379 THR 
+1 380 ALA 
+1 381 ARG 
+1 382 ARG 
+1 383 VAL 
+1 384 ALA 
+1 385 TYR 
+1 386 THR 
+1 387 GLY 
+1 388 LYS 
+1 389 ARG 
+1 390 ILE 
+1 391 ALA 
+1 392 TYR 
+1 393 VAL 
+1 394 CYS 
+1 395 ASN 
+1 396 LYS 
+1 397 GLY 
+1 398 ALA 
+1 399 VAL 
+1 400 ASN 
+1 401 VAL 
+1 402 ALA 
+1 403 ILE 
+1 404 SER 
+1 405 ASN 
+1 406 LYS 
+1 407 ARG 
+1 408 LEU 
+1 409 ALA 
+1 410 SER 
+1 411 PHE 
+1 412 GLY 
+1 413 LEU 
+1 414 ILE 
+1 415 SER 
+1 416 MET 
+1 417 LEU 
+1 418 ASP 
+1 419 TYR 
+1 420 TYR 
+1 421 ILE 
+1 422 GLU 
+1 423 LYS 
+1 424 CYS 
+1 425 VAL 
+1 426 THR 
+1 427 CYS 
+2 1   G   
+2 2   A   
+2 3   G   
+2 4   C   
+2 5   U   
+2 6   C   
+2 7   A   
+2 8   U   
+2 9   U   
+2 10  U   
+2 11  C   
+2 12  U   
+2 13  U   
+2 14  U   
+2 15  G   
+2 16  U   
+2 17  U   
+2 18  U   
+2 19  G   
+2 20  C   
+2 21  G   
+2 22  C   
+2 23  G   
+2 24  C   
+2 25  C   
+2 26  A   
+2 27  U   
+2 28  G   
+2 29  G   
+2 30  G   
+2 31  C   
+2 32  G   
+2 33  C   
+2 34  G   
+2 35  C   
+2 36  U   
+2 37  C   
+2 38  U   
+2 39  A   
+2 40  A   
+2 41  C   
+2 42  G   
+2 43  G   
+2 44  G   
+2 45  U   
+2 46  G   
+2 47  U   
+2 48  A   
+2 49  A   
+2 50  G   
+2 51  U   
+2 52  C   
+2 53  C   
+2 54  C   
+2 55  G   
+2 56  A   
+2 57  A   
+2 58  C   
+2 59  A   
+2 60  U   
+2 61  G   
+2 62  C   
+2 63  C   
+2 64  C   
+2 65  A   
+2 66  G   
+2 67  G   
+2 68  U   
+2 69  A   
+2 70  G   
+2 71  U   
+2 72  G   
+2 73  G   
+2 74  G   
+2 75  A   
+2 76  A   
+2 77  A   
+2 78  U   
+2 79  G   
+2 80  U   
+2 81  A   
+2 82  U   
+2 83  A   
+2 84  G   
+2 85  C   
+2 86  C   
+2 87  G   
+2 88  A   
+2 89  A   
+2 90  C   
+2 91  A   
+2 92  G   
+2 93  C   
+2 94  A   
+2 95  A   
+2 96  G   
+2 97  G   
+2 98  G   
+2 99  U   
+2 100 G   
+2 101 U   
+2 102 C   
+2 103 U   
+2 104 A   
+2 105 C   
+2 106 U   
+2 107 G   
+2 108 U   
+2 109 G   
+2 110 A   
+2 111 G   
+2 112 G   
+2 113 U   
+2 114 G   
+2 115 G   
+2 116 A   
+2 117 A   
+2 118 U   
+2 119 C   
+2 120 U   
+2 121 G   
+2 122 A   
+2 123 A   
+2 124 G   
+2 125 G   
+2 126 A   
+2 127 A   
+2 128 G   
+2 129 C   
+2 130 U   
+2 131 G   
+2 132 U   
+2 133 A   
+2 134 A   
+2 135 G   
+2 136 C   
+2 137 G   
+2 138 A   
+2 139 A   
+2 140 U   
+2 141 C   
+2 142 U   
+2 143 C   
+2 144 U   
+2 145 G   
+2 146 G   
+2 147 U   
+2 148 C   
+2 149 C   
+2 150 G   
+2 151 A   
+2 152 C   
+2 153 G   
+2 154 G   
+2 155 A   
+2 156 C   
+2 157 A   
+2 158 G   
+2 159 A   
+2 160 A   
+2 161 A   
+2 162 U   
+2 163 C   
+2 164 G   
+2 165 C   
+2 166 A   
+2 167 U   
+2 168 A   
+2 169 U   
+2 170 A   
+2 171 A   
+2 172 G   
+2 173 G   
+2 174 C   
+2 175 U   
+2 176 A   
+2 177 G   
+2 178 G   
+2 179 C   
+2 180 U   
+2 181 U   
+2 182 C   
+2 183 G   
+2 184 A   
+2 185 G   
+2 186 U   
+2 187 G   
+2 188 A   
+2 189 U   
+2 190 A   
+2 191 A   
+2 192 G   
+2 193 C   
+2 194 U   
+2 195 G   
+2 196 G   
+2 197 C   
+2 198 A   
+2 199 A   
+2 200 A   
+2 201 G   
+2 202 A   
+2 203 A   
+2 204 C   
+2 205 A   
+2 206 G   
+2 207 U   
+2 208 G   
+2 209 A   
+2 210 A   
+2 211 G   
+2 212 U   
+2 213 C   
+2 214 U   
+2 215 A   
+2 216 A   
+2 217 U   
+2 218 A   
+2 219 A   
+2 220 C   
+2 221 U   
+2 222 A   
+2 223 C   
+2 224 C   
+2 225 A   
+2 226 C   
+2 227 G   
+2 228 U   
+2 229 U   
+2 230 U   
+2 231 G   
+2 232 U   
+2 233 A   
+2 234 G   
+2 235 A   
+2 236 A   
+2 237 G   
+2 238 C   
+2 239 A   
+2 240 G   
+2 241 A   
+2 242 G   
+2 243 U   
+2 244 A   
+2 245 A   
+2 246 A   
+2 247 U   
+2 248 G   
+2 249 C   
+2 250 G   
+2 251 G   
+2 252 C   
+2 253 G   
+2 254 G   
+2 255 A   
+2 256 U   
+2 257 A   
+2 258 U   
+2 259 A   
+2 260 U   
+2 261 G   
+2 262 G   
+2 263 A   
+2 264 G   
+2 265 A   
+2 266 G   
+2 267 A   
+2 268 A   
+2 269 A   
+2 270 G   
+2 271 A   
+2 272 G   
+2 273 C   
+2 274 G   
+2 275 U   
+2 276 G   
+2 277 C   
+2 278 A   
+2 279 C   
+2 280 C   
+2 281 U   
+2 282 U   
+2 283 A   
+2 284 A   
+2 285 G   
+2 286 C   
+2 287 G   
+2 288 U   
+2 289 G   
+2 290 G   
+2 291 A   
+2 292 G   
+2 293 G   
+2 294 U   
+2 295 C   
+2 296 U   
+2 297 C   
+2 298 A   
+2 299 C   
+2 300 A   
+2 301 G   
+2 302 A   
+2 303 G   
+2 304 G   
+2 305 U   
+2 306 U   
+2 307 U   
+2 308 C   
+2 309 A   
+2 310 U   
+2 311 U   
+2 312 A   
+2 313 G   
+2 314 C   
+2 315 C   
+2 316 U   
+2 317 A   
+2 318 G   
+2 319 U   
+2 320 A   
+2 321 A   
+2 322 C   
+2 323 A   
+2 324 A   
+2 325 C   
+2 326 G   
+2 327 A   
+2 328 A   
+2 329 C   
+2 330 U   
+2 331 G   
+2 332 U   
+2 333 G   
+2 334 A   
+2 335 G   
+2 336 A   
+2 337 A   
+2 338 G   
+2 339 U   
+2 340 C   
+2 341 A   
+2 342 G   
+2 343 C   
+2 344 C   
+2 345 G   
+2 346 A   
+2 347 G   
+2 348 C   
+2 349 C   
+2 350 C   
+2 351 A   
+2 352 U   
+2 353 A   
+2 354 G   
+2 355 U   
+2 356 A   
+2 357 G   
+2 358 U   
+2 359 G   
+2 360 A   
+2 361 A   
+2 362 G   
+2 363 A   
+2 364 A   
+2 365 G   
+2 366 U   
+2 367 C   
+2 368 U   
+2 369 C   
+2 370 U   
+2 371 G   
+2 372 U   
+2 373 A   
+2 374 A   
+2 375 U   
+2 376 G   
+2 377 G   
+2 378 G   
+2 379 G   
+2 380 A   
+2 381 U   
+2 382 G   
+2 383 G   
+2 384 A   
+2 385 G   
+2 386 C   
+2 387 G   
+2 388 A   
+2 389 A   
+2 390 G   
+2 391 G   
+2 392 G   
+2 393 G   
+2 394 C   
+2 395 G   
+2 396 A   
+2 397 A   
+2 398 C   
+2 399 A   
+2 400 A   
+2 401 U   
+2 402 C   
+2 403 A   
+2 404 A   
+2 405 U   
+2 406 C   
+2 407 A   
+2 408 G   
+2 409 U   
+2 410 U   
+2 411 U   
+2 412 G   
+2 413 A   
+2 414 G   
+2 415 A   
+2 416 A   
+2 417 U   
+2 418 G   
+2 419 U   
+2 420 C   
+2 421 U   
+2 422 C   
+2 423 G   
+2 424 U   
+2 425 A   
+2 426 U   
+2 427 U   
+2 428 G   
+2 429 C   
+2 430 A   
+2 431 G   
+2 432 A   
+2 433 A   
+2 434 A   
+2 435 U   
+2 436 G   
+2 437 A   
+2 438 C   
+2 439 A   
+2 440 A   
+2 441 C   
+2 442 A   
+2 443 U   
+2 444 C   
+2 445 U   
+2 446 G   
+2 447 C   
+2 448 C   
+2 449 G   
+2 450 U   
+2 451 A   
+2 452 A   
+2 453 C   
+2 454 C   
+2 455 A   
+2 456 A   
+2 457 U   
+2 458 C   
+2 459 G   
+2 460 G   
+2 461 G   
+2 462 U   
+2 463 A   
+2 464 A   
+2 465 A   
+2 466 A   
+2 467 G   
+2 468 G   
+2 469 U   
+2 470 G   
+2 471 G   
+2 472 U   
+2 473 C   
+2 474 A   
+2 475 A   
+2 476 A   
+2 477 U   
+2 478 C   
+2 479 A   
+2 480 A   
+2 481 G   
+2 482 C   
+2 483 G   
+2 484 A   
+2 485 G   
+2 486 A   
+2 487 C   
+2 488 G   
+2 489 G   
+2 490 A   
+2 491 A   
+2 492 A   
+2 493 G   
+2 494 G   
+2 495 A   
+2 496 A   
+2 497 A   
+2 498 G   
+2 499 A   
+2 500 A   
+2 501 C   
+2 502 G   
+2 503 C   
+2 504 A   
+2 505 U   
+2 506 G   
+2 507 G   
+2 508 A   
+2 509 C   
+2 510 A   
+2 511 C   
+2 512 A   
+2 513 A   
+2 514 G   
+2 515 U   
+2 516 A   
+2 517 A   
+2 518 U   
+2 519 C   
+2 520 U   
+2 521 A   
+2 522 A   
+2 523 U   
+2 524 U   
+2 525 U   
+2 526 C   
+2 527 G   
+2 528 G   
+2 529 U   
+2 530 U   
+2 531 A   
+2 532 G   
+2 533 A   
+2 534 U   
+2 535 U   
+2 536 A   
+2 537 C   
+2 538 U   
+2 539 A   
+2 540 C   
+2 541 A   
+2 542 U   
+2 543 C   
+2 544 G   
+2 545 A   
+2 546 A   
+2 547 A   
+2 548 A   
+2 549 G   
+2 550 U   
+2 551 G   
+2 552 U   
+2 553 G   
+2 554 U   
+2 555 U   
+2 556 A   
+2 557 C   
+2 558 U   
+2 559 U   
+2 560 G   
+2 561 U   
+2 562 U   
+2 563 A   
+2 564 A   
+2 565 A   
+2 566 U   
+2 567 U   
+2 568 G   
+2 569 A   
+2 570 U   
+2 571 U   
+2 572 G   
+2 573 A   
+2 574 A   
+2 575 C   
+2 576 C   
+2 577 G   
+2 578 C   
+2 579 C   
+2 580 G   
+2 581 U   
+2 582 A   
+2 583 U   
+2 584 A   
+2 585 C   
+2 586 G   
+2 587 G   
+2 588 A   
+2 589 A   
+2 590 C   
+2 591 C   
+2 592 G   
+2 593 U   
+2 594 A   
+2 595 C   
+2 596 G   
+2 597 U   
+2 598 A   
+2 599 C   
+2 600 G   
+2 601 G   
+2 602 U   
+2 603 G   
+2 604 G   
+2 605 U   
+2 606 G   
+2 607 U   
+2 608 G   
+2 609 A   
+2 610 G   
+2 611 A   
+2 612 G   
+2 613 G   
+2 614 U   
+2 615 C   
+2 616 G   
+2 617 G   
+2 618 A   
+2 619 A   
+2 620 U   
+2 621 U   
+2 622 U   
+2 623 C   
+2 624 U   
+2 625 C   
+2 626 A   
+2 627 A   
+2 628 U   
+2 629 U   
+2 630 A   
+2 631 A   
+2 632 G   
+2 633 A   
+2 634 G   
+2 635 A   
+2 636 A   
+2 637 A   
+2 638 U   
+2 639 U   
+2 640 C   
+2 641 U   
+2 642 U   
+2 643 C   
+2 644 C   
+2 645 U   
+2 646 A   
+2 647 C   
+2 648 U   
+2 649 C   
+2 650 G   
+2 651 A   
+2 652 U   
+#
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1 
+B 2 
+C 3 
+N 4 
+#
+loop_
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.seq_id
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_ins_code
+1 A MET 1   D ?   . 
+1 A ASP 2   D ?   . 
+1 A THR 3   D ?   . 
+1 A SER 4   D 4   . 
+1 A ASN 5   D 5   . 
+1 A LEU 6   D 6   . 
+1 A MET 7   D 7   . 
+1 A GLU 8   D 8   . 
+1 A GLN 9   D 9   . 
+1 A ILE 10  D 10  . 
+1 A LEU 11  D 11  . 
+1 A SER 12  D 12  . 
+1 A SER 13  D 13  . 
+1 A ASP 14  D 14  . 
+1 A ASN 15  D 15  . 
+1 A LEU 16  D 16  . 
+1 A ASN 17  D 17  . 
+1 A ARG 18  D 18  . 
+1 A ALA 19  D 19  . 
+1 A TYR 20  D 20  . 
+1 A LEU 21  D 21  . 
+1 A GLN 22  D 22  . 
+1 A VAL 23  D 23  . 
+1 A VAL 24  D 24  . 
+1 A ARG 25  D 25  . 
+1 A ASN 26  D 26  . 
+1 A LYS 27  D 27  . 
+1 A GLY 28  D 28  . 
+1 A ALA 29  D 29  . 
+1 A GLU 30  D 30  . 
+1 A GLY 31  D 31  . 
+1 A VAL 32  D 32  . 
+1 A ASP 33  D 33  . 
+1 A GLY 34  D 34  . 
+1 A MET 35  D 35  . 
+1 A LYS 36  D 36  . 
+1 A TYR 37  D 37  . 
+1 A THR 38  D 38  . 
+1 A GLU 39  D 39  . 
+1 A LEU 40  D 40  . 
+1 A LYS 41  D 41  . 
+1 A GLU 42  D 42  . 
+1 A HIS 43  D 43  . 
+1 A LEU 44  D 44  . 
+1 A ALA 45  D 45  . 
+1 A LYS 46  D 46  . 
+1 A ASN 47  D 47  . 
+1 A GLY 48  D 48  . 
+1 A GLU 49  D 49  . 
+1 A THR 50  D 50  . 
+1 A ILE 51  D 51  . 
+1 A LYS 52  D 52  . 
+1 A GLY 53  D 53  . 
+1 A GLN 54  D 54  . 
+1 A LEU 55  D 55  . 
+1 A ARG 56  D 56  . 
+1 A THR 57  D 57  . 
+1 A ARG 58  D 58  . 
+1 A LYS 59  D 59  . 
+1 A TYR 60  D 60  . 
+1 A LYS 61  D 61  . 
+1 A PRO 62  D 62  . 
+1 A GLN 63  D 63  . 
+1 A PRO 64  D 64  . 
+1 A ALA 65  D ?   . 
+1 A ARG 66  D ?   . 
+1 A ARG 67  D ?   . 
+1 A VAL 68  D ?   . 
+1 A GLU 69  D ?   . 
+1 A ILE 70  D ?   . 
+1 A PRO 71  D ?   . 
+1 A LYS 72  D ?   . 
+1 A PRO 73  D ?   . 
+1 A ASP 74  D ?   . 
+1 A GLY 75  D ?   . 
+1 A GLY 76  D ?   . 
+1 A VAL 77  D ?   . 
+1 A ARG 78  D ?   . 
+1 A ASN 79  D ?   . 
+1 A LEU 80  D ?   . 
+1 A GLY 81  D 81  . 
+1 A VAL 82  D 82  . 
+1 A PRO 83  D 83  . 
+1 A THR 84  D 84  . 
+1 A VAL 85  D 85  . 
+1 A THR 86  D 86  . 
+1 A ASP 87  D 87  . 
+1 A ARG 88  D 88  . 
+1 A PHE 89  D 89  . 
+1 A ILE 90  D 90  . 
+1 A GLN 91  D 91  . 
+1 A GLN 92  D 92  . 
+1 A ALA 93  D 93  . 
+1 A ILE 94  D 94  . 
+1 A ALA 95  D 95  . 
+1 A GLN 96  D 96  . 
+1 A VAL 97  D 97  . 
+1 A LEU 98  D 98  . 
+1 A THR 99  D 99  . 
+1 A PRO 100 D 100 . 
+1 A ILE 101 D 101 . 
+1 A TYR 102 D 102 . 
+1 A GLU 103 D 103 . 
+1 A GLU 104 D 104 . 
+1 A GLN 105 D 105 . 
+1 A PHE 106 D 106 . 
+1 A HIS 107 D 107 . 
+1 A ASP 108 D 108 . 
+1 A HIS 109 D 109 . 
+1 A SER 110 D 110 . 
+1 A TYR 111 D 111 . 
+1 A GLY 112 D 112 . 
+1 A PHE 113 D 113 . 
+1 A ARG 114 D 114 . 
+1 A PRO 115 D 115 . 
+1 A ASN 116 D 116 . 
+1 A ARG 117 D 117 . 
+1 A CYS 118 D 118 . 
+1 A ALA 119 D 119 . 
+1 A GLN 120 D 120 . 
+1 A GLN 121 D 121 . 
+1 A ALA 122 D 122 . 
+1 A ILE 123 D 123 . 
+1 A LEU 124 D 124 . 
+1 A THR 125 D 125 . 
+1 A ALA 126 D 126 . 
+1 A LEU 127 D 127 . 
+1 A ASN 128 D 128 . 
+1 A ILE 129 D 129 . 
+1 A MET 130 D 130 . 
+1 A ASN 131 D 131 . 
+1 A ASP 132 D 132 . 
+1 A GLY 133 D 133 . 
+1 A ASN 134 D 134 . 
+1 A ASP 135 D 135 . 
+1 A TRP 136 D 136 . 
+1 A ILE 137 D 137 . 
+1 A VAL 138 D 138 . 
+1 A ASP 139 D 139 . 
+1 A ILE 140 D 140 . 
+1 A ASP 141 D 141 . 
+1 A LEU 142 D 142 . 
+1 A GLU 143 D 143 . 
+1 A LYS 144 D 144 . 
+1 A PHE 145 D 145 . 
+1 A PHE 146 D 146 . 
+1 A ASP 147 D 147 . 
+1 A THR 148 D 148 . 
+1 A VAL 149 D 149 . 
+1 A ASN 150 D 150 . 
+1 A HIS 151 D 151 . 
+1 A ASP 152 D 152 . 
+1 A LYS 153 D 153 . 
+1 A LEU 154 D 154 . 
+1 A MET 155 D 155 . 
+1 A THR 156 D 156 . 
+1 A LEU 157 D 157 . 
+1 A ILE 158 D 158 . 
+1 A GLY 159 D 159 . 
+1 A ARG 160 D 160 . 
+1 A THR 161 D 161 . 
+1 A ILE 162 D 162 . 
+1 A LYS 163 D 163 . 
+1 A ASP 164 D 164 . 
+1 A GLY 165 D 165 . 
+1 A ASP 166 D 166 . 
+1 A VAL 167 D 167 . 
+1 A ILE 168 D 168 . 
+1 A SER 169 D 169 . 
+1 A ILE 170 D 170 . 
+1 A VAL 171 D 171 . 
+1 A ARG 172 D 172 . 
+1 A LYS 173 D 173 . 
+1 A TYR 174 D 174 . 
+1 A LEU 175 D 175 . 
+1 A VAL 176 D 176 . 
+1 A SER 177 D 177 . 
+1 A GLY 178 D ?   . 
+1 A ILE 179 D ?   . 
+1 A MET 180 D ?   . 
+1 A ILE 181 D ?   . 
+1 A ASP 182 D ?   . 
+1 A ASP 183 D ?   . 
+1 A GLU 184 D ?   . 
+1 A TYR 185 D ?   . 
+1 A GLU 186 D ?   . 
+1 A ASP 187 D ?   . 
+1 A SER 188 D ?   . 
+1 A ILE 189 D ?   . 
+1 A VAL 190 D ?   . 
+1 A GLY 191 D ?   . 
+1 A THR 192 D ?   . 
+1 A PRO 193 D ?   . 
+1 A GLN 194 D ?   . 
+1 A GLY 195 D 195 . 
+1 A GLY 196 D 196 . 
+1 A ASN 197 D 197 . 
+1 A LEU 198 D 198 . 
+1 A SER 199 D 199 . 
+1 A PRO 200 D 200 . 
+1 A LEU 201 D 201 . 
+1 A LEU 202 D 202 . 
+1 A ALA 203 D 203 . 
+1 A ASN 204 D 204 . 
+1 A ILE 205 D 205 . 
+1 A MET 206 D 206 . 
+1 A LEU 207 D 207 . 
+1 A ASN 208 D 208 . 
+1 A GLU 209 D 209 . 
+1 A LEU 210 D 210 . 
+1 A ASP 211 D 211 . 
+1 A LYS 212 D 212 . 
+1 A GLU 213 D 213 . 
+1 A MET 214 D 214 . 
+1 A GLU 215 D 215 . 
+1 A LYS 216 D 216 . 
+1 A ARG 217 D 217 . 
+1 A GLY 218 D 218 . 
+1 A LEU 219 D 219 . 
+1 A ASN 220 D 220 . 
+1 A PHE 221 D 221 . 
+1 A VAL 222 D 222 . 
+1 A ARG 223 D 223 . 
+1 A TYR 224 D 224 . 
+1 A ALA 225 D 225 . 
+1 A ASP 226 D 226 . 
+1 A ASP 227 D 227 . 
+1 A CYS 228 D 228 . 
+1 A ILE 229 D 229 . 
+1 A ILE 230 D 230 . 
+1 A MET 231 D 231 . 
+1 A VAL 232 D 232 . 
+1 A GLY 233 D 233 . 
+1 A SER 234 D 234 . 
+1 A GLU 235 D 235 . 
+1 A MET 236 D 236 . 
+1 A SER 237 D 237 . 
+1 A ALA 238 D 238 . 
+1 A ASN 239 D 239 . 
+1 A ARG 240 D 240 . 
+1 A VAL 241 D 241 . 
+1 A MET 242 D 242 . 
+1 A ARG 243 D 243 . 
+1 A ASN 244 D 244 . 
+1 A ILE 245 D 245 . 
+1 A SER 246 D 246 . 
+1 A ARG 247 D 247 . 
+1 A PHE 248 D 248 . 
+1 A ILE 249 D 249 . 
+1 A GLU 250 D 250 . 
+1 A GLU 251 D 251 . 
+1 A LYS 252 D 252 . 
+1 A LEU 253 D 253 . 
+1 A GLY 254 D 254 . 
+1 A LEU 255 D 255 . 
+1 A LYS 256 D 256 . 
+1 A VAL 257 D 257 . 
+1 A ASN 258 D 258 . 
+1 A MET 259 D 259 . 
+1 A THR 260 D 260 . 
+1 A LYS 261 D 261 . 
+1 A SER 262 D 262 . 
+1 A LYS 263 D 263 . 
+1 A VAL 264 D 264 . 
+1 A ASP 265 D 265 . 
+1 A ARG 266 D 266 . 
+1 A PRO 267 D 267 . 
+1 A SER 268 D 268 . 
+1 A GLY 269 D 269 . 
+1 A LEU 270 D 270 . 
+1 A LYS 271 D 271 . 
+1 A TYR 272 D 272 . 
+1 A LEU 273 D 273 . 
+1 A GLY 274 D 274 . 
+1 A PHE 275 D 275 . 
+1 A GLY 276 D 276 . 
+1 A PHE 277 D 277 . 
+1 A TYR 278 D 278 . 
+1 A PHE 279 D 279 . 
+1 A ASP 280 D 280 . 
+1 A PRO 281 D 281 . 
+1 A ARG 282 D 282 . 
+1 A ALA 283 D 283 . 
+1 A HIS 284 D 284 . 
+1 A GLN 285 D 285 . 
+1 A PHE 286 D 286 . 
+1 A LYS 287 D 287 . 
+1 A ALA 288 D 288 . 
+1 A LYS 289 D 289 . 
+1 A PRO 290 D 290 . 
+1 A HIS 291 D 291 . 
+1 A ALA 292 D 292 . 
+1 A LYS 293 D 293 . 
+1 A SER 294 D 294 . 
+1 A VAL 295 D 295 . 
+1 A ALA 296 D 296 . 
+1 A LYS 297 D 297 . 
+1 A PHE 298 D 298 . 
+1 A LYS 299 D 299 . 
+1 A LYS 300 D 300 . 
+1 A ARG 301 D 301 . 
+1 A MET 302 D 302 . 
+1 A LYS 303 D 303 . 
+1 A GLU 304 D 304 . 
+1 A LEU 305 D 305 . 
+1 A THR 306 D 306 . 
+1 A CYS 307 D 307 . 
+1 A ARG 308 D 308 . 
+1 A SER 309 D 309 . 
+1 A TRP 310 D 310 . 
+1 A GLY 311 D 311 . 
+1 A VAL 312 D 312 . 
+1 A SER 313 D 313 . 
+1 A ASN 314 D 314 . 
+1 A SER 315 D 315 . 
+1 A TYR 316 D 316 . 
+1 A LYS 317 D 317 . 
+1 A VAL 318 D 318 . 
+1 A GLU 319 D 319 . 
+1 A LYS 320 D 320 . 
+1 A LEU 321 D 321 . 
+1 A ASN 322 D 322 . 
+1 A GLN 323 D 323 . 
+1 A LEU 324 D 324 . 
+1 A ILE 325 D 325 . 
+1 A ARG 326 D 326 . 
+1 A GLY 327 D 327 . 
+1 A TRP 328 D 328 . 
+1 A ILE 329 D 329 . 
+1 A ASN 330 D 330 . 
+1 A TYR 331 D 331 . 
+1 A PHE 332 D 332 . 
+1 A LYS 333 D 333 . 
+1 A ILE 334 D 334 . 
+1 A GLY 335 D 335 . 
+1 A SER 336 D 336 . 
+1 A MET 337 D 337 . 
+1 A LYS 338 D 338 . 
+1 A THR 339 D 339 . 
+1 A LEU 340 D 340 . 
+1 A CYS 341 D 341 . 
+1 A LYS 342 D 342 . 
+1 A GLU 343 D 343 . 
+1 A LEU 344 D 344 . 
+1 A ASP 345 D 345 . 
+1 A SER 346 D 346 . 
+1 A ARG 347 D 347 . 
+1 A ILE 348 D 348 . 
+1 A ARG 349 D 349 . 
+1 A TYR 350 D 350 . 
+1 A ARG 351 D 351 . 
+1 A LEU 352 D 352 . 
+1 A ARG 353 D 353 . 
+1 A MET 354 D 354 . 
+1 A CYS 355 D 355 . 
+1 A ILE 356 D 356 . 
+1 A TRP 357 D 357 . 
+1 A LYS 358 D 358 . 
+1 A GLN 359 D 359 . 
+1 A TRP 360 D 360 . 
+1 A LYS 361 D 361 . 
+1 A THR 362 D 362 . 
+1 A PRO 363 D 363 . 
+1 A GLN 364 D 364 . 
+1 A ASN 365 D 365 . 
+1 A GLN 366 D 366 . 
+1 A GLU 367 D 367 . 
+1 A LYS 368 D 368 . 
+1 A ASN 369 D 369 . 
+1 A LEU 370 D 370 . 
+1 A VAL 371 D 371 . 
+1 A LYS 372 D 372 . 
+1 A LEU 373 D 373 . 
+1 A GLY 374 D 374 . 
+1 A ILE 375 D 375 . 
+1 A ASP 376 D 376 . 
+1 A ARG 377 D 377 . 
+1 A ASN 378 D 378 . 
+1 A THR 379 D 379 . 
+1 A ALA 380 D 380 . 
+1 A ARG 381 D 381 . 
+1 A ARG 382 D 382 . 
+1 A VAL 383 D 383 . 
+1 A ALA 384 D 384 . 
+1 A TYR 385 D 385 . 
+1 A THR 386 D 386 . 
+1 A GLY 387 D 387 . 
+1 A LYS 388 D 388 . 
+1 A ARG 389 D 389 . 
+1 A ILE 390 D 390 . 
+1 A ALA 391 D 391 . 
+1 A TYR 392 D 392 . 
+1 A VAL 393 D 393 . 
+1 A CYS 394 D 394 . 
+1 A ASN 395 D 395 . 
+1 A LYS 396 D 396 . 
+1 A GLY 397 D 397 . 
+1 A ALA 398 D 398 . 
+1 A VAL 399 D 399 . 
+1 A ASN 400 D 400 . 
+1 A VAL 401 D 401 . 
+1 A ALA 402 D 402 . 
+1 A ILE 403 D 403 . 
+1 A SER 404 D 404 . 
+1 A ASN 405 D 405 . 
+1 A LYS 406 D 406 . 
+1 A ARG 407 D 407 . 
+1 A LEU 408 D 408 . 
+1 A ALA 409 D 409 . 
+1 A SER 410 D 410 . 
+1 A PHE 411 D 411 . 
+1 A GLY 412 D 412 . 
+1 A LEU 413 D 413 . 
+1 A ILE 414 D 414 . 
+1 A SER 415 D 415 . 
+1 A MET 416 D 416 . 
+1 A LEU 417 D 417 . 
+1 A ASP 418 D 418 . 
+1 A TYR 419 D 419 . 
+1 A TYR 420 D 420 . 
+1 A ILE 421 D 421 . 
+1 A GLU 422 D 422 . 
+1 A LYS 423 D 423 . 
+1 A CYS 424 D 424 . 
+1 A VAL 425 D 425 . 
+1 A THR 426 D ?   . 
+1 A CYS 427 D ?   . 
+2 B G   1   B -34 . 
+2 B A   2   B -33 . 
+2 B G   3   B -32 . 
+2 B C   4   B -10 . 
+2 B U   5   B -9  . 
+2 B C   6   B -8  . 
+2 B A   7   B -7  . 
+2 B U   8   B -6  . 
+2 B U   9   B -5  . 
+2 B U   10  B -4  . 
+2 B C   11  B -3  . 
+2 B U   12  B -2  . 
+2 B U   13  B -1  . 
+2 B U   14  B 0   . 
+2 B G   15  B 1   . 
+2 B U   16  B 2   . 
+2 B U   17  B 3   . 
+2 B U   18  B 4   . 
+2 B G   19  B 5   . 
+2 B C   20  B 6   . 
+2 B G   21  B 7   . 
+2 B C   22  B 8   . 
+2 B G   23  B 9   . 
+2 B C   24  B 10  . 
+2 B C   25  B 11  . 
+2 B A   26  B 12  . 
+2 B U   27  B 13  . 
+2 B G   28  B 14  . 
+2 B G   29  B 15  . 
+2 B G   30  B 16  . 
+2 B C   31  B 17  . 
+2 B G   32  B 18  . 
+2 B C   33  B 19  . 
+2 B G   34  B 20  . 
+2 B C   35  B 21  . 
+2 B U   36  B 22  . 
+2 B C   37  B 23  . 
+2 B U   38  B 24  . 
+2 B A   39  B 25  . 
+2 B A   40  B 26  . 
+2 B C   41  B 27  . 
+2 B G   42  B 28  . 
+2 B G   43  B 29  . 
+2 B G   44  B 30  . 
+2 B U   45  B 31  . 
+2 B G   46  B 32  . 
+2 B U   47  B 33  . 
+2 B A   48  B 34  . 
+2 B A   49  B 35  . 
+2 B G   50  B 36  . 
+2 B U   51  B 37  . 
+2 B C   52  B 38  . 
+2 B C   53  B 39  . 
+2 B C   54  B 40  . 
+2 B G   55  B 41  . 
+2 B A   56  B 42  . 
+2 B A   57  B 43  . 
+2 B C   58  B 44  . 
+2 B A   59  B 45  . 
+2 B U   60  B 46  . 
+2 B G   61  B 47  . 
+2 B C   62  B 48  . 
+2 B C   63  B 49  . 
+2 B C   64  B 50  . 
+2 B A   65  B 51  . 
+2 B G   66  B 52  . 
+2 B G   67  B 53  . 
+2 B U   68  B 54  . 
+2 B A   69  B 55  . 
+2 B G   70  B 56  . 
+2 B U   71  B 57  . 
+2 B G   72  B 58  . 
+2 B G   73  B 59  . 
+2 B G   74  B 60  . 
+2 B A   75  B 61  . 
+2 B A   76  B 62  . 
+2 B A   77  B 63  . 
+2 B U   78  B 64  . 
+2 B G   79  B 65  . 
+2 B U   80  B 66  . 
+2 B A   81  B 67  . 
+2 B U   82  B 68  . 
+2 B A   83  B 69  . 
+2 B G   84  B 70  . 
+2 B C   85  B 71  . 
+2 B C   86  B 72  . 
+2 B G   87  B 73  . 
+2 B A   88  B 74  . 
+2 B A   89  B 75  . 
+2 B C   90  B 76  . 
+2 B A   91  B 77  . 
+2 B G   92  B 78  . 
+2 B C   93  B 79  . 
+2 B A   94  B 80  . 
+2 B A   95  B 81  . 
+2 B G   96  B 82  . 
+2 B G   97  B 83  . 
+2 B G   98  B 84  . 
+2 B U   99  B 85  . 
+2 B G   100 B 86  . 
+2 B U   101 B 87  . 
+2 B C   102 B 88  . 
+2 B U   103 B 89  . 
+2 B A   104 B 90  . 
+2 B C   105 B 91  . 
+2 B U   106 B 92  . 
+2 B G   107 B 93  . 
+2 B U   108 B 94  . 
+2 B G   109 B 95  . 
+2 B A   110 B 96  . 
+2 B G   111 B 97  . 
+2 B G   112 B 98  . 
+2 B U   113 B 99  . 
+2 B G   114 B 100 . 
+2 B G   115 B 101 . 
+2 B A   116 B 102 . 
+2 B A   117 B 103 . 
+2 B U   118 B 104 . 
+2 B C   119 B 105 . 
+2 B U   120 B 106 . 
+2 B G   121 B 107 . 
+2 B A   122 B 108 . 
+2 B A   123 B 109 . 
+2 B G   124 B 110 . 
+2 B G   125 B 111 . 
+2 B A   126 B 112 . 
+2 B A   127 B 113 . 
+2 B G   128 B 114 . 
+2 B C   129 B 115 . 
+2 B U   130 B 116 . 
+2 B G   131 B 117 . 
+2 B U   132 B 118 . 
+2 B A   133 B 119 . 
+2 B A   134 B 120 . 
+2 B G   135 B 121 . 
+2 B C   136 B 122 . 
+2 B G   137 B 123 . 
+2 B A   138 B 124 . 
+2 B A   139 B 125 . 
+2 B U   140 B 126 . 
+2 B C   141 B 127 . 
+2 B U   142 B 128 . 
+2 B C   143 B 129 . 
+2 B U   144 B 130 . 
+2 B G   145 B 131 . 
+2 B G   146 B 132 . 
+2 B U   147 B 133 . 
+2 B C   148 B 134 . 
+2 B C   149 B 135 . 
+2 B G   150 B 136 . 
+2 B A   151 B 137 . 
+2 B C   152 B 138 . 
+2 B G   153 B 139 . 
+2 B G   154 B 140 . 
+2 B A   155 B 141 . 
+2 B C   156 B 142 . 
+2 B A   157 B 143 . 
+2 B G   158 B 144 . 
+2 B A   159 B 145 . 
+2 B A   160 B 146 . 
+2 B A   161 B 147 . 
+2 B U   162 B 148 . 
+2 B C   163 B 149 . 
+2 B G   164 B 150 . 
+2 B C   165 B 151 . 
+2 B A   166 B 152 . 
+2 B U   167 B 153 . 
+2 B A   168 B 154 . 
+2 B U   169 B 155 . 
+2 B A   170 B 156 . 
+2 B A   171 B 157 . 
+2 B G   172 B 158 . 
+2 B G   173 B 159 . 
+2 B C   174 B 160 . 
+2 B U   175 B 161 . 
+2 B A   176 B 162 . 
+2 B G   177 B 163 . 
+2 B G   178 B 164 . 
+2 B C   179 B 165 . 
+2 B U   180 B 166 . 
+2 B U   181 B 167 . 
+2 B C   182 B 168 . 
+2 B G   183 B ?   . 
+2 B A   184 B ?   . 
+2 B G   185 B ?   . 
+2 B U   186 B 172 . 
+2 B G   187 B 173 . 
+2 B A   188 B 174 . 
+2 B U   189 B 175 . 
+2 B A   190 B 176 . 
+2 B A   191 B 177 . 
+2 B G   192 B 178 . 
+2 B C   193 B 179 . 
+2 B U   194 B 180 . 
+2 B G   195 B 181 . 
+2 B G   196 B 182 . 
+2 B C   197 B 183 . 
+2 B A   198 B 184 . 
+2 B A   199 B 185 . 
+2 B A   200 B 186 . 
+2 B G   201 B 187 . 
+2 B A   202 B 188 . 
+2 B A   203 B 189 . 
+2 B C   204 B 190 . 
+2 B A   205 B 191 . 
+2 B G   206 B 192 . 
+2 B U   207 B 193 . 
+2 B G   208 B 194 . 
+2 B A   209 B 195 . 
+2 B A   210 B 196 . 
+2 B G   211 B 197 . 
+2 B U   212 B 198 . 
+2 B C   213 B 199 . 
+2 B U   214 B 200 . 
+2 B A   215 B 201 . 
+2 B A   216 B 202 . 
+2 B U   217 B 203 . 
+2 B A   218 B 204 . 
+2 B A   219 B 205 . 
+2 B C   220 B 206 . 
+2 B U   221 B 207 . 
+2 B A   222 B ?   . 
+2 B C   223 B ?   . 
+2 B C   224 B ?   . 
+2 B A   225 B ?   . 
+2 B C   226 B ?   . 
+2 B G   227 B ?   . 
+2 B U   228 B ?   . 
+2 B U   229 B ?   . 
+2 B U   230 B ?   . 
+2 B G   231 B ?   . 
+2 B U   232 B ?   . 
+2 B A   233 B ?   . 
+2 B G   234 B ?   . 
+2 B A   235 B 221 . 
+2 B A   236 B 222 . 
+2 B G   237 B 223 . 
+2 B C   238 B 224 . 
+2 B A   239 B 225 . 
+2 B G   240 B 226 . 
+2 B A   241 B 227 . 
+2 B G   242 B 228 . 
+2 B U   243 B 229 . 
+2 B A   244 B 230 . 
+2 B A   245 B 231 . 
+2 B A   246 B 232 . 
+2 B U   247 B 233 . 
+2 B G   248 B 234 . 
+2 B C   249 B 235 . 
+2 B G   250 B 236 . 
+2 B G   251 B 237 . 
+2 B C   252 B 238 . 
+2 B G   253 B 239 . 
+2 B G   254 B 240 . 
+2 B A   255 B 241 . 
+2 B U   256 B 242 . 
+2 B A   257 B 243 . 
+2 B U   258 B 244 . 
+2 B A   259 B 245 . 
+2 B U   260 B 246 . 
+2 B G   261 B 247 . 
+2 B G   262 B 248 . 
+2 B A   263 B 249 . 
+2 B G   264 B 250 . 
+2 B A   265 B 251 . 
+2 B G   266 B 252 . 
+2 B A   267 B 253 . 
+2 B A   268 B 254 . 
+2 B A   269 B 255 . 
+2 B G   270 B 256 . 
+2 B A   271 B 257 . 
+2 B G   272 B 258 . 
+2 B C   273 B 259 . 
+2 B G   274 B 260 . 
+2 B U   275 B 261 . 
+2 B G   276 B 262 . 
+2 B C   277 B 263 . 
+2 B A   278 B 264 . 
+2 B C   279 B 265 . 
+2 B C   280 B 266 . 
+2 B U   281 B 267 . 
+2 B U   282 B 268 . 
+2 B A   283 B 269 . 
+2 B A   284 B 270 . 
+2 B G   285 B 271 . 
+2 B C   286 B 272 . 
+2 B G   287 B 273 . 
+2 B U   288 B 274 . 
+2 B G   289 B 275 . 
+2 B G   290 B 276 . 
+2 B A   291 B 277 . 
+2 B G   292 B 278 . 
+2 B G   293 B 279 . 
+2 B U   294 B 280 . 
+2 B C   295 B 281 . 
+2 B U   296 B 282 . 
+2 B C   297 B 283 . 
+2 B A   298 B 284 . 
+2 B C   299 B 285 . 
+2 B A   300 B 286 . 
+2 B G   301 B 287 . 
+2 B A   302 B 288 . 
+2 B G   303 B 289 . 
+2 B G   304 B 290 . 
+2 B U   305 B 291 . 
+2 B U   306 B 292 . 
+2 B U   307 B ?   . 
+2 B C   308 B ?   . 
+2 B A   309 B ?   . 
+2 B U   310 B ?   . 
+2 B U   311 B ?   . 
+2 B A   312 B 298 . 
+2 B G   313 B 299 . 
+2 B C   314 B 300 . 
+2 B C   315 B 301 . 
+2 B U   316 B 302 . 
+2 B A   317 B 303 . 
+2 B G   318 B 304 . 
+2 B U   319 B 305 . 
+2 B A   320 B 306 . 
+2 B A   321 B 307 . 
+2 B C   322 B 308 . 
+2 B A   323 B 309 . 
+2 B A   324 B 310 . 
+2 B C   325 B 311 . 
+2 B G   326 B 312 . 
+2 B A   327 B 313 . 
+2 B A   328 B 314 . 
+2 B C   329 B 315 . 
+2 B U   330 B 316 . 
+2 B G   331 B 317 . 
+2 B U   332 B 318 . 
+2 B G   333 B 319 . 
+2 B A   334 B 320 . 
+2 B G   335 B 321 . 
+2 B A   336 B 322 . 
+2 B A   337 B 323 . 
+2 B G   338 B 324 . 
+2 B U   339 B 325 . 
+2 B C   340 B 326 . 
+2 B A   341 B 327 . 
+2 B G   342 B 328 . 
+2 B C   343 B 329 . 
+2 B C   344 B 330 . 
+2 B G   345 B 331 . 
+2 B A   346 B 332 . 
+2 B G   347 B 333 . 
+2 B C   348 B 334 . 
+2 B C   349 B 335 . 
+2 B C   350 B 336 . 
+2 B A   351 B 337 . 
+2 B U   352 B 338 . 
+2 B A   353 B 339 . 
+2 B G   354 B 340 . 
+2 B U   355 B 341 . 
+2 B A   356 B 342 . 
+2 B G   357 B 343 . 
+2 B U   358 B 344 . 
+2 B G   359 B 345 . 
+2 B A   360 B 346 . 
+2 B A   361 B 347 . 
+2 B G   362 B 348 . 
+2 B A   363 B 349 . 
+2 B A   364 B 350 . 
+2 B G   365 B 351 . 
+2 B U   366 B 352 . 
+2 B C   367 B 353 . 
+2 B U   368 B 354 . 
+2 B C   369 B 355 . 
+2 B U   370 B 356 . 
+2 B G   371 B 357 . 
+2 B U   372 B 358 . 
+2 B A   373 B 359 . 
+2 B A   374 B 360 . 
+2 B U   375 B 361 . 
+2 B G   376 B 362 . 
+2 B G   377 B 363 . 
+2 B G   378 B 364 . 
+2 B G   379 B 365 . 
+2 B A   380 B 366 . 
+2 B U   381 B 367 . 
+2 B G   382 B 368 . 
+2 B G   383 B 369 . 
+2 B A   384 B 370 . 
+2 B G   385 B 371 . 
+2 B C   386 B 372 . 
+2 B G   387 B 373 . 
+2 B A   388 B 374 . 
+2 B A   389 B 375 . 
+2 B G   390 B 376 . 
+2 B G   391 B 377 . 
+2 B G   392 B 378 . 
+2 B G   393 B 379 . 
+2 B C   394 B 380 . 
+2 B G   395 B 381 . 
+2 B A   396 B 382 . 
+2 B A   397 B 383 . 
+2 B C   398 B 384 . 
+2 B A   399 B 385 . 
+2 B A   400 B 386 . 
+2 B U   401 B 387 . 
+2 B C   402 B 388 . 
+2 B A   403 B 389 . 
+2 B A   404 B 390 . 
+2 B U   405 B 391 . 
+2 B C   406 B ?   . 
+2 B A   407 B ?   . 
+2 B G   408 B ?   . 
+2 B U   409 B ?   . 
+2 B U   410 B ?   . 
+2 B U   411 B ?   . 
+2 B G   412 B ?   . 
+2 B A   413 B ?   . 
+2 B G   414 B ?   . 
+2 B A   415 B 401 . 
+2 B A   416 B 402 . 
+2 B U   417 B 403 . 
+2 B G   418 B 404 . 
+2 B U   419 B 405 . 
+2 B C   420 B 406 . 
+2 B U   421 B 407 . 
+2 B C   422 B 408 . 
+2 B G   423 B 409 . 
+2 B U   424 B 410 . 
+2 B A   425 B 411 . 
+2 B U   426 B 412 . 
+2 B U   427 B 413 . 
+2 B G   428 B 414 . 
+2 B C   429 B 415 . 
+2 B A   430 B 416 . 
+2 B G   431 B 417 . 
+2 B A   432 B 418 . 
+2 B A   433 B 419 . 
+2 B A   434 B 420 . 
+2 B U   435 B 421 . 
+2 B G   436 B 422 . 
+2 B A   437 B 423 . 
+2 B C   438 B 424 . 
+2 B A   439 B 425 . 
+2 B A   440 B 426 . 
+2 B C   441 B 427 . 
+2 B A   442 B 428 . 
+2 B U   443 B 429 . 
+2 B C   444 B 430 . 
+2 B U   445 B 431 . 
+2 B G   446 B 432 . 
+2 B C   447 B 433 . 
+2 B C   448 B 434 . 
+2 B G   449 B 435 . 
+2 B U   450 B 436 . 
+2 B A   451 B 437 . 
+2 B A   452 B 438 . 
+2 B C   453 B 439 . 
+2 B C   454 B 440 . 
+2 B A   455 B 441 . 
+2 B A   456 B 442 . 
+2 B U   457 B 443 . 
+2 B C   458 B 444 . 
+2 B G   459 B 445 . 
+2 B G   460 B 446 . 
+2 B G   461 B 447 . 
+2 B U   462 B 448 . 
+2 B A   463 B 449 . 
+2 B A   464 B 450 . 
+2 B A   465 B 451 . 
+2 B A   466 B 452 . 
+2 B G   467 B 453 . 
+2 B G   468 B 454 . 
+2 B U   469 B 455 . 
+2 B G   470 B 456 . 
+2 B G   471 B 457 . 
+2 B U   472 B 458 . 
+2 B C   473 B 459 . 
+2 B A   474 B 460 . 
+2 B A   475 B 461 . 
+2 B A   476 B 462 . 
+2 B U   477 B 463 . 
+2 B C   478 B 464 . 
+2 B A   479 B 465 . 
+2 B A   480 B 466 . 
+2 B G   481 B 467 . 
+2 B C   482 B 468 . 
+2 B G   483 B 469 . 
+2 B A   484 B 470 . 
+2 B G   485 B 471 . 
+2 B A   486 B 472 . 
+2 B C   487 B 473 . 
+2 B G   488 B 474 . 
+2 B G   489 B 475 . 
+2 B A   490 B 476 . 
+2 B A   491 B 477 . 
+2 B A   492 B 478 . 
+2 B G   493 B 479 . 
+2 B G   494 B 480 . 
+2 B A   495 B 481 . 
+2 B A   496 B ?   . 
+2 B A   497 B ?   . 
+2 B G   498 B ?   . 
+2 B A   499 B ?   . 
+2 B A   500 B ?   . 
+2 B C   501 B ?   . 
+2 B G   502 B ?   . 
+2 B C   503 B ?   . 
+2 B A   504 B ?   . 
+2 B U   505 B ?   . 
+2 B G   506 B ?   . 
+2 B G   507 B ?   . 
+2 B A   508 B ?   . 
+2 B C   509 B ?   . 
+2 B A   510 B ?   . 
+2 B C   511 B ?   . 
+2 B A   512 B ?   . 
+2 B A   513 B ?   . 
+2 B G   514 B ?   . 
+2 B U   515 B ?   . 
+2 B A   516 B ?   . 
+2 B A   517 B ?   . 
+2 B U   518 B ?   . 
+2 B C   519 B ?   . 
+2 B U   520 B ?   . 
+2 B A   521 B ?   . 
+2 B A   522 B ?   . 
+2 B U   523 B ?   . 
+2 B U   524 B ?   . 
+2 B U   525 B ?   . 
+2 B C   526 B ?   . 
+2 B G   527 B ?   . 
+2 B G   528 B ?   . 
+2 B U   529 B ?   . 
+2 B U   530 B ?   . 
+2 B A   531 B ?   . 
+2 B G   532 B ?   . 
+2 B A   533 B ?   . 
+2 B U   534 B ?   . 
+2 B U   535 B ?   . 
+2 B A   536 B ?   . 
+2 B C   537 B ?   . 
+2 B U   538 B ?   . 
+2 B A   539 B ?   . 
+2 B C   540 B ?   . 
+2 B A   541 B ?   . 
+2 B U   542 B ?   . 
+2 B C   543 B ?   . 
+2 B G   544 B ?   . 
+2 B A   545 B ?   . 
+2 B A   546 B ?   . 
+2 B A   547 B ?   . 
+2 B A   548 B ?   . 
+2 B G   549 B ?   . 
+2 B U   550 B ?   . 
+2 B G   551 B ?   . 
+2 B U   552 B ?   . 
+2 B G   553 B ?   . 
+2 B U   554 B ?   . 
+2 B U   555 B ?   . 
+2 B A   556 B ?   . 
+2 B C   557 B ?   . 
+2 B U   558 B ?   . 
+2 B U   559 B ?   . 
+2 B G   560 B ?   . 
+2 B U   561 B ?   . 
+2 B U   562 B ?   . 
+2 B A   563 B ?   . 
+2 B A   564 B ?   . 
+2 B A   565 B 551 . 
+2 B U   566 B 552 . 
+2 B U   567 B 553 . 
+2 B G   568 B 554 . 
+2 B A   569 B 555 . 
+2 B U   570 B 556 . 
+2 B U   571 B 557 . 
+2 B G   572 B 558 . 
+2 B A   573 B 559 . 
+2 B A   574 B 560 . 
+2 B C   575 B 561 . 
+2 B C   576 B 562 . 
+2 B G   577 B 563 . 
+2 B C   578 B 564 . 
+2 B C   579 B 565 . 
+2 B G   580 B 566 . 
+2 B U   581 B 567 . 
+2 B A   582 B 568 . 
+2 B U   583 B 569 . 
+2 B A   584 B 570 . 
+2 B C   585 B 571 . 
+2 B G   586 B 572 . 
+2 B G   587 B 573 . 
+2 B A   588 B 574 . 
+2 B A   589 B 575 . 
+2 B C   590 B 576 . 
+2 B C   591 B 577 . 
+2 B G   592 B 578 . 
+2 B U   593 B 579 . 
+2 B A   594 B 580 . 
+2 B C   595 B 581 . 
+2 B G   596 B 582 . 
+2 B U   597 B 583 . 
+2 B A   598 B 584 . 
+2 B C   599 B 585 . 
+2 B G   600 B 586 . 
+2 B G   601 B 587 . 
+2 B U   602 B 588 . 
+2 B G   603 B 589 . 
+2 B G   604 B 590 . 
+2 B U   605 B 591 . 
+2 B G   606 B 592 . 
+2 B U   607 B 593 . 
+2 B G   608 B 594 . 
+2 B A   609 B 595 . 
+2 B G   610 B 596 . 
+2 B A   611 B 597 . 
+2 B G   612 B 598 . 
+2 B G   613 B 599 . 
+2 B U   614 B 600 . 
+2 B C   615 B 601 . 
+2 B G   616 B 602 . 
+2 B G   617 B 603 . 
+2 B A   618 B 604 . 
+2 B A   619 B 605 . 
+2 B U   620 B 606 . 
+2 B U   621 B 607 . 
+2 B U   622 B 608 . 
+2 B C   623 B 609 . 
+2 B U   624 B 610 . 
+2 B C   625 B 611 . 
+2 B A   626 B 612 . 
+2 B A   627 B 613 . 
+2 B U   628 B 614 . 
+2 B U   629 B 615 . 
+2 B A   630 B 616 . 
+2 B A   631 B 617 . 
+2 B G   632 B 618 . 
+2 B A   633 B 619 . 
+2 B G   634 B 620 . 
+2 B A   635 B 621 . 
+2 B A   636 B 622 . 
+2 B A   637 B 623 . 
+2 B U   638 B 624 . 
+2 B U   639 B 625 . 
+2 B C   640 B 626 . 
+2 B U   641 B 627 . 
+2 B U   642 B 628 . 
+2 B C   643 B 629 . 
+2 B C   644 B 630 . 
+2 B U   645 B 631 . 
+2 B A   646 B 632 . 
+2 B C   647 B 633 . 
+2 B U   648 B 634 . 
+2 B C   649 B 635 . 
+2 B G   650 B 636 . 
+2 B A   651 B ?   . 
+2 B U   652 B ?   . 
+#
+loop_
+_atom_type.symbol
+C  
+N  
+O  
+P  
+S  
+Ca 
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.auth_asym_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+ATOM 152 P P   . G   B 2 357 167.704 186.309 206.695 B 343 ? 1.00 86.82  1 
+ATOM 153 O OP1 . G   B 2 357 167.117 185.306 207.616 B 343 ? 1.00 80.69  1 
+ATOM 154 O OP2 . G   B 2 357 168.336 187.525 207.257 B 343 ? 1.00 71.87  1 
+ATOM 155 O O5' . G   B 2 357 168.785 185.571 205.791 B 343 ? 1.00 76.57  1 
+ATOM 156 C C5' . G   B 2 357 168.512 184.299 205.228 B 343 ? 1.00 71.12  1 
+ATOM 157 C C4' . G   B 2 357 169.371 184.035 204.020 B 343 ? 1.00 64.60  1 
+ATOM 158 O O4' . G   B 2 357 169.292 185.149 203.099 B 343 ? 1.00 61.02  1 
+ATOM 159 C C3' . G   B 2 357 170.857 183.881 204.275 B 343 ? 1.00 67.53  1 
+ATOM 160 O O3' . G   B 2 357 171.195 182.593 204.752 B 343 ? 1.00 69.68  1 
+ATOM 161 C C2' . G   B 2 357 171.459 184.200 202.913 B 343 ? 1.00 70.08  1 
+ATOM 162 O O2' . G   B 2 357 171.356 183.083 202.045 B 343 ? 1.00 72.18  1 
+ATOM 163 C C1' . G   B 2 357 170.514 185.284 202.406 B 343 ? 1.00 66.75  1 
+ATOM 164 N N9  . G   B 2 357 171.034 186.653 202.603 B 343 ? 1.00 72.42  1 
+ATOM 165 C C8  . G   B 2 357 170.448 187.618 203.380 B 343 ? 1.00 70.62  1 
+ATOM 166 N N7  . G   B 2 357 171.085 188.753 203.365 B 343 ? 1.00 68.43  1 
+ATOM 167 C C5  . G   B 2 357 172.159 188.529 202.521 B 343 ? 1.00 70.41  1 
+ATOM 168 C C6  . G   B 2 357 173.197 189.409 202.129 B 343 ? 1.00 76.48  1 
+ATOM 169 O O6  . G   B 2 357 173.362 190.585 202.469 B 343 ? 1.00 78.04  1 
+ATOM 170 N N1  . G   B 2 357 174.094 188.801 201.262 B 343 ? 1.00 72.69  1 
+ATOM 171 C C2  . G   B 2 357 174.002 187.504 200.826 B 343 ? 1.00 67.06  1 
+ATOM 172 N N2  . G   B 2 357 174.966 187.095 199.989 B 343 ? 1.00 71.51  1 
+ATOM 173 N N3  . G   B 2 357 173.034 186.673 201.185 B 343 ? 1.00 66.26  1 
+ATOM 174 C C4  . G   B 2 357 172.146 187.242 202.032 B 343 ? 1.00 68.84  1 
+ATOM 175 P P   . U   B 2 358 172.182 182.426 206.004 B 344 ? 1.00 77.71  1 
+ATOM 176 O OP1 . U   B 2 358 172.133 181.011 206.444 B 344 ? 1.00 79.93  1 
+ATOM 177 O OP2 . U   B 2 358 171.891 183.511 206.971 B 344 ? 1.00 67.97  1 
+ATOM 178 O O5' . U   B 2 358 173.624 182.703 205.394 B 344 ? 1.00 80.89  1 
+ATOM 179 C C5' . U   B 2 358 174.101 181.968 204.278 B 344 ? 1.00 77.65  1 
+ATOM 180 C C4' . U   B 2 358 175.233 182.694 203.599 B 344 ? 1.00 72.38  1 
+ATOM 181 O O4' . U   B 2 358 174.743 183.932 203.024 B 344 ? 1.00 69.71  1 
+ATOM 182 C C3' . U   B 2 358 176.360 183.137 204.511 B 344 ? 1.00 71.93  1 
+ATOM 183 O O3' . U   B 2 358 177.273 182.097 204.801 B 344 ? 1.00 74.16  1 
+ATOM 184 C C2' . U   B 2 358 176.973 184.298 203.745 B 344 ? 1.00 71.14  1 
+ATOM 185 O O2' . U   B 2 358 177.807 183.821 202.701 B 344 ? 1.00 78.78  1 
+ATOM 186 C C1' . U   B 2 358 175.735 184.931 203.113 B 344 ? 1.00 66.69  1 
+ATOM 187 N N1  . U   B 2 358 175.200 186.076 203.892 B 344 ? 1.00 65.39  1 
+ATOM 188 C C2  . U   B 2 358 175.819 187.305 203.769 B 344 ? 1.00 72.42  1 
+ATOM 189 O O2  . U   B 2 358 176.794 187.494 203.067 B 344 ? 1.00 81.91  1 
+ATOM 190 N N3  . U   B 2 358 175.263 188.321 204.503 B 344 ? 1.00 72.47  1 
+ATOM 191 C C4  . U   B 2 358 174.165 188.248 205.330 B 344 ? 1.00 74.79  1 
+ATOM 192 O O4  . U   B 2 358 173.782 189.255 205.927 B 344 ? 1.00 77.28  1 
+ATOM 193 C C5  . U   B 2 358 173.572 186.953 205.403 B 344 ? 1.00 76.29  1 
+ATOM 194 C C6  . U   B 2 358 174.095 185.947 204.698 B 344 ? 1.00 72.81  1 
+ATOM 195 P P   . G   B 2 359 177.881 181.957 206.278 B 345 ? 1.00 85.89  1 
+ATOM 196 O OP1 . G   B 2 359 178.546 180.635 206.371 B 345 ? 1.00 89.20  1 
+ATOM 197 O OP2 . G   B 2 359 176.817 182.313 207.248 B 345 ? 1.00 78.09  1 
+ATOM 198 O O5' . G   B 2 359 178.997 183.090 206.334 B 345 ? 1.00 88.09  1 
+ATOM 199 C C5' . G   B 2 359 180.054 183.114 205.387 B 345 ? 1.00 84.18  1 
+ATOM 200 C C4' . G   B 2 359 180.846 184.392 205.474 B 345 ? 1.00 81.84  1 
+ATOM 201 O O4' . G   B 2 359 180.087 185.498 204.920 B 345 ? 1.00 82.50  1 
+ATOM 202 C C3' . G   B 2 359 181.192 184.863 206.872 B 345 ? 1.00 86.39  1 
+ATOM 203 O O3' . G   B 2 359 182.268 184.147 207.447 B 345 ? 1.00 87.88  1 
+ATOM 204 C C2' . G   B 2 359 181.472 186.342 206.654 B 345 ? 1.00 86.16  1 
+ATOM 205 O O2' . G   B 2 359 182.752 186.527 206.068 B 345 ? 1.00 85.17  1 
+ATOM 206 C C1' . G   B 2 359 180.413 186.690 205.608 B 345 ? 1.00 83.39  1 
+ATOM 207 N N9  . G   B 2 359 179.192 187.237 206.227 B 345 ? 1.00 80.52  1 
+ATOM 208 C C8  . G   B 2 359 178.037 186.564 206.532 B 345 ? 1.00 83.65  1 
+ATOM 209 N N7  . G   B 2 359 177.131 187.325 207.081 B 345 ? 1.00 82.44  1 
+ATOM 210 C C5  . G   B 2 359 177.724 188.576 207.148 B 345 ? 1.00 78.62  1 
+ATOM 211 C C6  . G   B 2 359 177.226 189.806 207.649 B 345 ? 1.00 82.95  1 
+ATOM 212 O O6  . G   B 2 359 176.123 190.046 208.152 B 345 ? 1.00 88.93  1 
+ATOM 213 N N1  . G   B 2 359 178.157 190.827 207.523 B 345 ? 1.00 82.30  1 
+ATOM 214 C C2  . G   B 2 359 179.409 190.684 206.987 B 345 ? 1.00 84.27  1 
+ATOM 215 N N2  . G   B 2 359 180.165 191.789 206.950 B 345 ? 1.00 87.74  1 
+ATOM 216 N N3  . G   B 2 359 179.884 189.545 206.514 B 345 ? 1.00 83.31  1 
+ATOM 217 C C4  . G   B 2 359 178.996 188.537 206.627 B 345 ? 1.00 78.57  1 
+ATOM 218 P P   . A   B 2 360 182.068 183.410 208.858 B 346 ? 1.00 100.39 1 
+ATOM 219 O OP1 . A   B 2 360 182.155 181.946 208.635 B 346 ? 1.00 97.44  1 
+ATOM 220 O OP2 . A   B 2 360 180.864 183.981 209.510 B 346 ? 1.00 95.71  1 
+ATOM 221 O O5' . A   B 2 360 183.335 183.870 209.700 B 346 ? 1.00 97.76  1 
+ATOM 222 C C5' . A   B 2 360 183.759 185.227 209.681 B 346 ? 1.00 94.38  1 
+ATOM 223 C C4' . A   B 2 360 184.725 185.520 210.798 B 346 ? 1.00 94.95  1 
+ATOM 224 O O4' . A   B 2 360 185.236 186.870 210.639 B 346 ? 1.00 98.92  1 
+ATOM 225 C C3' . A   B 2 360 184.127 185.451 212.200 B 346 ? 1.00 97.06  1 
+ATOM 226 O O3' . A   B 2 360 185.107 184.963 213.114 B 346 ? 1.00 96.00  1 
+ATOM 227 C C2' . A   B 2 360 183.813 186.912 212.505 B 346 ? 1.00 96.68  1 
+ATOM 228 O O2' . A   B 2 360 183.762 187.227 213.880 B 346 ? 1.00 99.51  1 
+ATOM 229 C C1' . A   B 2 360 184.963 187.626 211.801 B 346 ? 1.00 96.69  1 
+ATOM 230 N N9  . A   B 2 360 184.662 188.999 211.389 B 346 ? 1.00 95.01  1 
+ATOM 231 C C8  . A   B 2 360 185.258 190.149 211.842 B 346 ? 1.00 94.40  1 
+ATOM 232 N N7  . A   B 2 360 184.789 191.243 211.294 B 346 ? 1.00 94.49  1 
+ATOM 233 C C5  . A   B 2 360 183.817 190.781 210.420 B 346 ? 1.00 96.54  1 
+ATOM 234 C C6  . A   B 2 360 182.947 191.441 209.536 B 346 ? 1.00 97.41  1 
+ATOM 235 N N6  . A   B 2 360 182.915 192.765 209.381 B 346 ? 1.00 99.22  1 
+ATOM 236 N N1  . A   B 2 360 182.096 190.689 208.804 B 346 ? 1.00 95.05  1 
+ATOM 237 C C2  . A   B 2 360 182.116 189.359 208.952 B 346 ? 1.00 94.73  1 
+ATOM 238 N N3  . A   B 2 360 182.891 188.627 209.747 B 346 ? 1.00 95.46  1 
+ATOM 239 C C4  . A   B 2 360 183.725 189.402 210.466 B 346 ? 1.00 96.01  1 
+ATOM 240 P P   . A   B 2 361 184.905 183.531 213.815 B 347 ? 1.00 124.22 1 
+ATOM 241 O OP1 . A   B 2 361 183.493 183.430 214.257 B 347 ? 1.00 120.70 1 
+ATOM 242 O OP2 . A   B 2 361 185.998 183.341 214.801 B 347 ? 1.00 120.23 1 
+ATOM 243 O O5' . A   B 2 361 185.123 182.484 212.635 B 347 ? 1.00 119.37 1 
+ATOM 244 C C5' . A   B 2 361 186.384 182.363 211.996 B 347 ? 1.00 117.07 1 
+ATOM 245 C C4' . A   B 2 361 186.664 180.940 211.585 B 347 ? 1.00 118.09 1 
+ATOM 246 O O4' . A   B 2 361 186.099 180.025 212.559 B 347 ? 1.00 121.91 1 
+ATOM 247 C C3' . A   B 2 361 186.061 180.487 210.265 B 347 ? 1.00 116.05 1 
+ATOM 248 O O3' . A   B 2 361 186.820 180.907 209.144 B 347 ? 1.00 116.13 1 
+ATOM 249 C C2' . A   B 2 361 186.007 178.975 210.430 B 347 ? 1.00 119.48 1 
+ATOM 250 O O2' . A   B 2 361 187.286 178.399 210.209 B 347 ? 1.00 121.85 1 
+ATOM 251 C C1' . A   B 2 361 185.673 178.842 211.916 B 347 ? 1.00 121.14 1 
+ATOM 252 N N9  . A   B 2 361 184.229 178.658 212.165 B 347 ? 1.00 119.85 1 
+ATOM 253 C C8  . A   B 2 361 183.411 179.481 212.898 B 347 ? 1.00 120.30 1 
+ATOM 254 N N7  . A   B 2 361 182.169 179.076 212.969 B 347 ? 1.00 120.14 1 
+ATOM 255 C C5  . A   B 2 361 182.165 177.900 212.237 B 347 ? 1.00 119.03 1 
+ATOM 256 C C6  . A   B 2 361 181.147 176.981 211.929 B 347 ? 1.00 118.85 1 
+ATOM 257 N N6  . A   B 2 361 179.886 177.118 212.342 B 347 ? 1.00 118.31 1 
+ATOM 258 N N1  . A   B 2 361 181.466 175.904 211.175 B 347 ? 1.00 119.46 1 
+ATOM 259 C C2  . A   B 2 361 182.729 175.764 210.755 B 347 ? 1.00 119.41 1 
+ATOM 260 N N3  . A   B 2 361 183.771 176.556 210.986 B 347 ? 1.00 119.33 1 
+ATOM 261 C C4  . A   B 2 361 183.426 177.621 211.737 B 347 ? 1.00 119.60 1 
+ATOM 262 P P   . G   B 2 362 186.506 180.332 207.676 B 348 ? 1.00 107.96 1 
+ATOM 263 O OP1 . G   B 2 362 185.037 180.188 207.520 B 348 ? 1.00 104.29 1 
+ATOM 264 O OP2 . G   B 2 362 187.401 179.177 207.415 B 348 ? 1.00 107.43 1 
+ATOM 265 O O5' . G   B 2 362 186.965 181.501 206.703 B 348 ? 1.00 103.72 1 
+ATOM 266 C C5' . G   B 2 362 186.013 182.179 205.903 B 348 ? 1.00 102.91 1 
+ATOM 267 C C4' . G   B 2 362 186.047 183.664 206.145 B 348 ? 1.00 97.66  1 
+ATOM 268 O O4' . G   B 2 362 186.356 183.935 207.526 B 348 ? 1.00 99.98  1 
+ATOM 269 C C3' . G   B 2 362 187.090 184.448 205.365 B 348 ? 1.00 98.03  1 
+ATOM 270 O O3' . G   B 2 362 186.600 184.788 204.080 B 348 ? 1.00 99.62  1 
+ATOM 271 C C2' . G   B 2 362 187.350 185.680 206.236 B 348 ? 1.00 99.72  1 
+ATOM 272 O O2' . G   B 2 362 186.530 186.760 205.827 B 348 ? 1.00 108.79 1 
+ATOM 273 C C1' . G   B 2 362 186.901 185.223 207.632 B 348 ? 1.00 101.32 1 
+ATOM 274 N N9  . G   B 2 362 187.944 185.285 208.674 B 348 ? 1.00 103.31 1 
+ATOM 275 C C8  . G   B 2 362 188.604 184.269 209.319 B 348 ? 1.00 103.31 1 
+ATOM 276 N N7  . G   B 2 362 189.446 184.706 210.218 B 348 ? 1.00 100.07 1 
+ATOM 277 C C5  . G   B 2 362 189.324 186.088 210.174 B 348 ? 1.00 102.26 1 
+ATOM 278 C C6  . G   B 2 362 189.980 187.107 210.915 B 348 ? 1.00 103.32 1 
+ATOM 279 O O6  . G   B 2 362 190.839 186.985 211.795 B 348 ? 1.00 102.88 1 
+ATOM 280 N N1  . G   B 2 362 189.548 188.378 210.544 B 348 ? 1.00 100.51 1 
+ATOM 281 C C2  . G   B 2 362 188.604 188.638 209.583 B 348 ? 1.00 100.98 1 
+ATOM 282 N N2  . G   B 2 362 188.306 189.926 209.355 B 348 ? 1.00 101.93 1 
+ATOM 283 N N3  . G   B 2 362 187.988 187.698 208.890 B 348 ? 1.00 99.93  1 
+ATOM 284 C C4  . G   B 2 362 188.394 186.457 209.233 B 348 ? 1.00 101.23 1 
+ATOM 285 P P   . A   B 2 363 187.583 185.000 202.830 B 349 ? 1.00 109.89 1 
+ATOM 286 O OP1 . A   B 2 363 187.978 183.663 202.325 B 349 ? 1.00 104.81 1 
+ATOM 287 O OP2 . A   B 2 363 188.628 185.986 203.198 B 349 ? 1.00 103.53 1 
+ATOM 288 O O5' . A   B 2 363 186.649 185.690 201.740 B 349 ? 1.00 101.10 1 
+ATOM 289 C C5' . A   B 2 363 185.293 185.294 201.574 B 349 ? 1.00 97.22  1 
+ATOM 290 C C4' . A   B 2 363 184.446 186.434 201.065 B 349 ? 1.00 96.63  1 
+ATOM 291 O O4' . A   B 2 363 184.174 187.358 202.148 B 349 ? 1.00 94.69  1 
+ATOM 292 C C3' . A   B 2 363 185.088 187.295 199.987 B 349 ? 1.00 99.39  1 
+ATOM 293 O O3' . A   B 2 363 184.940 186.750 198.689 B 349 ? 1.00 99.03  1 
+ATOM 294 C C2' . A   B 2 363 184.394 188.636 200.165 B 349 ? 1.00 97.12  1 
+ATOM 295 O O2' . A   B 2 363 183.106 188.615 199.571 B 349 ? 1.00 96.50  1 
+ATOM 296 C C1' . A   B 2 363 184.220 188.687 201.677 B 349 ? 1.00 97.21  1 
+ATOM 297 N N9  . A   B 2 363 185.336 189.367 202.359 B 349 ? 1.00 101.40 1 
+ATOM 298 C C8  . A   B 2 363 186.285 188.751 203.128 B 349 ? 1.00 103.63 1 
+ATOM 299 N N7  . A   B 2 363 187.157 189.571 203.645 B 349 ? 1.00 103.78 1 
+ATOM 300 C C5  . A   B 2 363 186.759 190.814 203.197 B 349 ? 1.00 100.17 1 
+ATOM 301 C C6  . A   B 2 363 187.282 192.100 203.404 B 349 ? 1.00 97.17  1 
+ATOM 302 N N6  . A   B 2 363 188.364 192.348 204.147 B 349 ? 1.00 97.52  1 
+ATOM 303 N N1  . A   B 2 363 186.651 193.135 202.811 B 349 ? 1.00 98.40  1 
+ATOM 304 C C2  . A   B 2 363 185.564 192.889 202.070 B 349 ? 1.00 100.43 1 
+ATOM 305 N N3  . A   B 2 363 184.983 191.720 201.805 B 349 ? 1.00 98.69  1 
+ATOM 306 C C4  . A   B 2 363 185.632 190.709 202.404 B 349 ? 1.00 99.46  1 
+ATOM 307 P P   . A   B 2 364 186.121 186.900 197.612 B 350 ? 1.00 109.45 1 
+ATOM 308 O OP1 . A   B 2 364 185.740 186.110 196.416 B 350 ? 1.00 104.64 1 
+ATOM 309 O OP2 . A   B 2 364 187.410 186.625 198.293 B 350 ? 1.00 106.58 1 
+ATOM 310 O O5' . A   B 2 364 186.089 188.443 197.219 B 350 ? 1.00 104.10 1 
+ATOM 311 C C5' . A   B 2 364 184.975 188.995 196.536 B 350 ? 1.00 100.65 1 
+ATOM 312 C C4' . A   B 2 364 185.015 190.502 196.529 B 350 ? 1.00 100.77 1 
+ATOM 313 O O4' . A   B 2 364 185.044 191.010 197.889 B 350 ? 1.00 104.08 1 
+ATOM 314 C C3' . A   B 2 364 186.232 191.136 195.882 B 350 ? 1.00 101.44 1 
+ATOM 315 O O3' . A   B 2 364 186.167 191.152 194.467 B 350 ? 1.00 101.44 1 
+ATOM 316 C C2' . A   B 2 364 186.248 192.521 196.511 B 350 ? 1.00 101.95 1 
+ATOM 317 O O2' . A   B 2 364 185.268 193.356 195.912 B 350 ? 1.00 100.91 1 
+ATOM 318 C C1' . A   B 2 364 185.803 192.202 197.938 B 350 ? 1.00 103.64 1 
+ATOM 319 N N9  . A   B 2 364 186.958 191.989 198.829 B 350 ? 1.00 100.38 1 
+ATOM 320 C C8  . A   B 2 364 187.335 190.814 199.424 B 350 ? 1.00 100.80 1 
+ATOM 321 N N7  . A   B 2 364 188.411 190.916 200.161 B 350 ? 1.00 103.09 1 
+ATOM 322 C C5  . A   B 2 364 188.770 192.247 200.044 B 350 ? 1.00 101.66 1 
+ATOM 323 C C6  . A   B 2 364 189.830 192.992 200.588 B 350 ? 1.00 102.69 1 
+ATOM 324 N N6  . A   B 2 364 190.757 192.468 201.394 B 350 ? 1.00 103.66 1 
+ATOM 325 N N1  . A   B 2 364 189.909 194.305 200.278 B 350 ? 1.00 102.19 1 
+ATOM 326 C C2  . A   B 2 364 188.980 194.834 199.472 B 350 ? 1.00 102.94 1 
+ATOM 327 N N3  . A   B 2 364 187.939 194.232 198.900 B 350 ? 1.00 103.39 1 
+ATOM 328 C C4  . A   B 2 364 187.886 192.926 199.226 B 350 ? 1.00 101.08 1 
+ATOM 329 P P   . G   B 2 365 187.410 190.619 193.599 B 351 ? 1.00 110.39 1 
+ATOM 330 O OP1 . G   B 2 365 187.085 190.811 192.164 B 351 ? 1.00 110.30 1 
+ATOM 331 O OP2 . G   B 2 365 187.770 189.267 194.092 B 351 ? 1.00 109.22 1 
+ATOM 332 O O5' . G   B 2 365 188.595 191.617 193.968 B 351 ? 1.00 112.79 1 
+ATOM 333 C C5' . G   B 2 365 188.538 192.984 193.589 B 351 ? 1.00 110.66 1 
+ATOM 334 C C4' . G   B 2 365 189.546 193.814 194.342 B 351 ? 1.00 111.05 1 
+ATOM 335 O O4' . G   B 2 365 189.359 193.652 195.773 B 351 ? 1.00 112.71 1 
+ATOM 336 C C3' . G   B 2 365 191.005 193.453 194.126 B 351 ? 1.00 112.90 1 
+ATOM 337 O O3' . G   B 2 365 191.536 193.960 192.915 B 351 ? 1.00 113.22 1 
+ATOM 338 C C2' . G   B 2 365 191.666 194.024 195.371 B 351 ? 1.00 110.75 1 
+ATOM 339 O O2' . G   B 2 365 191.797 195.434 195.266 B 351 ? 1.00 107.65 1 
+ATOM 340 C C1' . G   B 2 365 190.609 193.719 196.431 B 351 ? 1.00 109.92 1 
+ATOM 341 N N9  . G   B 2 365 190.858 192.427 197.103 B 351 ? 1.00 110.52 1 
+ATOM 342 C C8  . G   B 2 365 190.050 191.318 197.060 B 351 ? 1.00 110.11 1 
+ATOM 343 N N7  . G   B 2 365 190.516 190.312 197.748 B 351 ? 1.00 108.90 1 
+ATOM 344 C C5  . G   B 2 365 191.704 190.784 198.284 B 351 ? 1.00 111.16 1 
+ATOM 345 C C6  . G   B 2 365 192.655 190.141 199.117 B 351 ? 1.00 110.90 1 
+ATOM 346 O O6  . G   B 2 365 192.643 188.991 199.562 B 351 ? 1.00 111.60 1 
+ATOM 347 N N1  . G   B 2 365 193.722 190.970 199.428 B 351 ? 1.00 110.51 1 
+ATOM 348 C C2  . G   B 2 365 193.861 192.260 198.993 B 351 ? 1.00 111.70 1 
+ATOM 349 N N2  . G   B 2 365 194.962 192.906 199.401 B 351 ? 1.00 112.33 1 
+ATOM 350 N N3  . G   B 2 365 192.984 192.873 198.218 B 351 ? 1.00 111.88 1 
+ATOM 351 C C4  . G   B 2 365 191.934 192.086 197.896 B 351 ? 1.00 111.35 1 
+ATOM 352 P P   . U   B 2 366 192.497 193.040 192.013 B 352 ? 1.00 121.70 1 
+ATOM 353 O OP1 . U   B 2 366 192.817 193.796 190.777 B 352 ? 1.00 120.18 1 
+ATOM 354 O OP2 . U   B 2 366 191.892 191.689 191.912 B 352 ? 1.00 117.84 1 
+ATOM 355 O O5' . U   B 2 366 193.832 192.917 192.872 B 352 ? 1.00 117.21 1 
+ATOM 356 C C5' . U   B 2 366 194.632 194.059 193.135 B 352 ? 1.00 117.42 1 
+ATOM 357 C C4' . U   B 2 366 195.810 193.726 194.016 B 352 ? 1.00 117.77 1 
+ATOM 358 O O4' . U   B 2 366 195.355 193.276 195.320 B 352 ? 1.00 117.08 1 
+ATOM 359 C C3' . U   B 2 366 196.704 192.596 193.540 B 352 ? 1.00 119.07 1 
+ATOM 360 O O3' . U   B 2 366 197.595 192.972 192.506 B 352 ? 1.00 121.72 1 
+ATOM 361 C C2' . U   B 2 366 197.399 192.174 194.825 B 352 ? 1.00 119.86 1 
+ATOM 362 O O2' . U   B 2 366 198.434 193.088 195.157 B 352 ? 1.00 119.19 1 
+ATOM 363 C C1' . U   B 2 366 196.270 192.333 195.845 B 352 ? 1.00 116.53 1 
+ATOM 364 N N1  . U   B 2 366 195.564 191.053 196.106 B 352 ? 1.00 118.18 1 
+ATOM 365 C C2  . U   B 2 366 196.174 190.103 196.916 B 352 ? 1.00 117.85 1 
+ATOM 366 O O2  . U   B 2 366 197.267 190.244 197.439 B 352 ? 1.00 118.67 1 
+ATOM 367 N N3  . U   B 2 366 195.460 188.946 197.108 B 352 ? 1.00 117.23 1 
+ATOM 368 C C4  . U   B 2 366 194.220 188.642 196.584 B 352 ? 1.00 118.43 1 
+ATOM 369 O O4  . U   B 2 366 193.692 187.561 196.844 B 352 ? 1.00 119.76 1 
+ATOM 370 C C5  . U   B 2 366 193.656 189.665 195.762 B 352 ? 1.00 119.29 1 
+ATOM 371 C C6  . U   B 2 366 194.325 190.803 195.563 B 352 ? 1.00 118.80 1 
+ATOM 372 P P   . A   B 2 380 197.362 180.125 203.903 B 366 ? 1.00 122.72 1 
+ATOM 373 O OP1 . A   B 2 380 197.542 179.712 205.318 B 366 ? 1.00 119.10 1 
+ATOM 374 O OP2 . A   B 2 380 195.991 180.305 203.365 B 366 ? 1.00 117.71 1 
+ATOM 375 O O5' . A   B 2 380 198.168 181.480 203.670 B 366 ? 1.00 116.45 1 
+ATOM 376 C C5' . A   B 2 380 199.528 181.591 204.061 B 366 ? 1.00 115.36 1 
+ATOM 377 C C4' . A   B 2 380 200.173 182.838 203.508 B 366 ? 1.00 115.70 1 
+ATOM 378 O O4' . A   B 2 380 200.157 182.805 202.058 B 366 ? 1.00 116.35 1 
+ATOM 379 C C3' . A   B 2 380 199.500 184.157 203.854 B 366 ? 1.00 115.70 1 
+ATOM 380 O O3' . A   B 2 380 199.835 184.624 205.150 B 366 ? 1.00 118.83 1 
+ATOM 381 C C2' . A   B 2 380 199.976 185.074 202.736 B 366 ? 1.00 114.41 1 
+ATOM 382 O O2' . A   B 2 380 201.301 185.518 202.982 B 366 ? 1.00 114.44 1 
+ATOM 383 C C1' . A   B 2 380 200.005 184.113 201.547 B 366 ? 1.00 113.48 1 
+ATOM 384 N N9  . A   B 2 380 198.762 184.159 200.753 B 366 ? 1.00 117.16 1 
+ATOM 385 C C8  . A   B 2 380 197.855 183.143 200.613 B 366 ? 1.00 117.85 1 
+ATOM 386 N N7  . A   B 2 380 196.835 183.435 199.847 B 366 ? 1.00 116.47 1 
+ATOM 387 C C5  . A   B 2 380 197.090 184.733 199.446 B 366 ? 1.00 116.73 1 
+ATOM 388 C C6  . A   B 2 380 196.377 185.617 198.621 B 366 ? 1.00 115.86 1 
+ATOM 389 N N6  . A   B 2 380 195.222 185.300 198.035 B 366 ? 1.00 116.63 1 
+ATOM 390 N N1  . A   B 2 380 196.885 186.855 198.431 B 366 ? 1.00 116.47 1 
+ATOM 391 C C2  . A   B 2 380 198.044 187.176 199.022 B 366 ? 1.00 115.90 1 
+ATOM 392 N N3  . A   B 2 380 198.806 186.424 199.817 B 366 ? 1.00 117.03 1 
+ATOM 393 C C4  . A   B 2 380 198.274 185.199 199.991 B 366 ? 1.00 117.60 1 
+ATOM 394 P P   . U   B 2 381 198.722 185.326 206.073 B 367 ? 1.00 120.72 1 
+ATOM 395 O OP1 . U   B 2 381 199.275 185.470 207.442 B 367 ? 1.00 114.29 1 
+ATOM 396 O OP2 . U   B 2 381 197.441 184.604 205.877 B 367 ? 1.00 115.20 1 
+ATOM 397 O O5' . U   B 2 381 198.565 186.786 205.455 B 367 ? 1.00 114.92 1 
+ATOM 398 C C5' . U   B 2 381 199.636 187.718 205.492 B 367 ? 1.00 111.27 1 
+ATOM 399 C C4' . U   B 2 381 199.379 188.886 204.572 B 367 ? 1.00 112.17 1 
+ATOM 400 O O4' . U   B 2 381 199.103 188.393 203.237 B 367 ? 1.00 112.57 1 
+ATOM 401 C C3' . U   B 2 381 198.171 189.746 204.913 B 367 ? 1.00 112.89 1 
+ATOM 402 O O3' . U   B 2 381 198.466 190.736 205.885 B 367 ? 1.00 113.12 1 
+ATOM 403 C C2' . U   B 2 381 197.779 190.339 203.567 B 367 ? 1.00 114.00 1 
+ATOM 404 O O2' . U   B 2 381 198.587 191.467 203.263 B 367 ? 1.00 111.41 1 
+ATOM 405 C C1' . U   B 2 381 198.148 189.214 202.603 B 367 ? 1.00 111.83 1 
+ATOM 406 N N1  . U   B 2 381 197.001 188.373 202.177 B 367 ? 1.00 111.78 1 
+ATOM 407 C C2  . U   B 2 381 196.017 188.872 201.332 B 367 ? 1.00 115.20 1 
+ATOM 408 O O2  . U   B 2 381 195.972 190.015 200.908 B 367 ? 1.00 116.97 1 
+ATOM 409 N N3  . U   B 2 381 195.039 187.969 200.993 B 367 ? 1.00 112.88 1 
+ATOM 410 C C4  . U   B 2 381 194.945 186.651 201.382 B 367 ? 1.00 110.97 1 
+ATOM 411 O O4  . U   B 2 381 194.004 185.965 200.982 B 367 ? 1.00 112.26 1 
+ATOM 412 C C5  . U   B 2 381 195.992 186.212 202.242 B 367 ? 1.00 111.14 1 
+ATOM 413 C C6  . U   B 2 381 196.960 187.062 202.580 B 367 ? 1.00 111.26 1 
+ATOM 414 P P   . G   B 2 382 197.365 191.179 206.968 B 368 ? 1.00 121.33 1 
+ATOM 415 O OP1 . G   B 2 382 197.932 192.299 207.760 B 368 ? 1.00 116.40 1 
+ATOM 416 O OP2 . G   B 2 382 196.895 189.955 207.662 B 368 ? 1.00 114.68 1 
+ATOM 417 O O5' . G   B 2 382 196.149 191.744 206.104 B 368 ? 1.00 116.64 1 
+ATOM 418 C C5' . G   B 2 382 196.196 193.024 205.485 B 368 ? 1.00 113.27 1 
+ATOM 419 C C4' . G   B 2 382 194.950 193.262 204.669 B 368 ? 1.00 111.68 1 
+ATOM 420 O O4' . G   B 2 382 194.841 192.229 203.664 B 368 ? 1.00 112.73 1 
+ATOM 421 C C3' . G   B 2 382 193.648 193.191 205.453 B 368 ? 1.00 112.96 1 
+ATOM 422 O O3' . G   B 2 382 193.279 194.461 205.950 B 368 ? 1.00 118.14 1 
+ATOM 423 C C2' . G   B 2 382 192.634 192.659 204.444 B 368 ? 1.00 111.80 1 
+ATOM 424 O O2' . G   B 2 382 192.073 193.726 203.693 B 368 ? 1.00 112.06 1 
+ATOM 425 C C1' . G   B 2 382 193.502 191.826 203.508 B 368 ? 1.00 111.34 1 
+ATOM 426 N N9  . G   B 2 382 193.438 190.367 203.722 B 368 ? 1.00 112.50 1 
+ATOM 427 C C8  . G   B 2 382 194.338 189.624 204.444 B 368 ? 1.00 111.77 1 
+ATOM 428 N N7  . G   B 2 382 194.091 188.345 204.418 B 368 ? 1.00 110.64 1 
+ATOM 429 C C5  . G   B 2 382 192.971 188.232 203.610 B 368 ? 1.00 112.36 1 
+ATOM 430 C C6  . G   B 2 382 192.241 187.079 203.225 B 368 ? 1.00 113.69 1 
+ATOM 431 O O6  . G   B 2 382 192.458 185.896 203.514 B 368 ? 1.00 111.52 1 
+ATOM 432 N N1  . G   B 2 382 191.178 187.399 202.393 B 368 ? 1.00 113.79 1 
+ATOM 433 C C2  . G   B 2 382 190.844 188.668 202.004 B 368 ? 1.00 113.14 1 
+ATOM 434 N N2  . G   B 2 382 189.778 188.760 201.199 B 368 ? 1.00 111.66 1 
+ATOM 435 N N3  . G   B 2 382 191.514 189.757 202.355 B 368 ? 1.00 113.30 1 
+ATOM 436 C C4  . G   B 2 382 192.560 189.468 203.159 B 368 ? 1.00 112.09 1 
+ATOM 437 P P   . G   B 2 383 193.819 195.007 207.358 B 369 ? 1.00 125.51 1 
+ATOM 438 O OP1 . G   B 2 383 194.924 195.960 207.079 B 369 ? 1.00 113.09 1 
+ATOM 439 O OP2 . G   B 2 383 194.065 193.859 208.265 B 369 ? 1.00 115.54 1 
+ATOM 440 O O5' . G   B 2 383 192.570 195.835 207.886 B 369 ? 1.00 119.37 1 
+ATOM 441 C C5' . G   B 2 383 191.589 196.295 206.960 B 369 ? 1.00 115.42 1 
+ATOM 442 C C4' . G   B 2 383 190.220 195.721 207.237 B 369 ? 1.00 112.17 1 
+ATOM 443 O O4' . G   B 2 383 190.223 194.297 206.928 B 369 ? 1.00 107.93 1 
+ATOM 444 C C3' . G   B 2 383 189.749 195.860 208.684 B 369 ? 1.00 114.69 1 
+ATOM 445 O O3' . G   B 2 383 188.441 196.480 208.809 B 369 ? 1.00 116.99 1 
+ATOM 446 C C2' . G   B 2 383 189.884 194.441 209.263 B 369 ? 1.00 112.43 1 
+ATOM 447 O O2' . G   B 2 383 188.959 194.105 210.276 B 369 ? 1.00 111.23 1 
+ATOM 448 C C1' . G   B 2 383 189.741 193.545 208.028 B 369 ? 1.00 110.15 1 
+ATOM 449 N N9  . G   B 2 383 190.552 192.323 208.123 B 369 ? 1.00 110.96 1 
+ATOM 450 C C8  . G   B 2 383 191.555 192.163 209.045 B 369 ? 1.00 114.39 1 
+ATOM 451 N N7  . G   B 2 383 192.163 191.017 208.979 B 369 ? 1.00 115.11 1 
+ATOM 452 C C5  . G   B 2 383 191.525 190.360 207.945 B 369 ? 1.00 114.36 1 
+ATOM 453 C C6  . G   B 2 383 191.774 189.063 207.429 B 369 ? 1.00 114.35 1 
+ATOM 454 O O6  . G   B 2 383 192.617 188.232 207.789 B 369 ? 1.00 113.25 1 
+ATOM 455 N N1  . G   B 2 383 190.919 188.762 206.386 B 369 ? 1.00 112.37 1 
+ATOM 456 C C2  . G   B 2 383 189.952 189.600 205.905 B 369 ? 1.00 113.82 1 
+ATOM 457 N N2  . G   B 2 383 189.248 189.093 204.890 B 369 ? 1.00 113.46 1 
+ATOM 458 N N3  . G   B 2 383 189.702 190.819 206.372 B 369 ? 1.00 113.96 1 
+ATOM 459 C C4  . G   B 2 383 190.525 191.144 207.394 B 369 ? 1.00 111.49 1 
+ATOM 460 P P   . A   B 2 384 186.996 195.837 208.450 B 370 ? 1.00 114.12 1 
+ATOM 461 O OP1 . A   B 2 384 186.056 196.971 208.614 B 370 ? 1.00 102.85 1 
+ATOM 462 O OP2 . A   B 2 384 186.695 194.624 209.245 B 370 ? 1.00 104.08 1 
+ATOM 463 O O5' . A   B 2 384 187.010 195.547 206.883 B 370 ? 1.00 106.63 1 
+ATOM 464 C C5' . A   B 2 384 186.423 196.468 205.965 B 370 ? 1.00 101.19 1 
+ATOM 465 C C4' . A   B 2 384 185.269 195.851 205.209 B 370 ? 1.00 100.62 1 
+ATOM 466 O O4' . A   B 2 384 185.456 194.411 205.154 B 370 ? 1.00 99.77  1 
+ATOM 467 C C3' . A   B 2 384 183.886 196.065 205.823 B 370 ? 1.00 99.23  1 
+ATOM 468 O O3' . A   B 2 384 182.911 196.029 204.782 B 370 ? 1.00 102.37 1 
+ATOM 469 C C2' . A   B 2 384 183.716 194.807 206.659 B 370 ? 1.00 97.52  1 
+ATOM 470 O O2' . A   B 2 384 182.378 194.490 206.979 B 370 ? 1.00 101.70 1 
+ATOM 471 C C1' . A   B 2 384 184.338 193.770 205.733 B 370 ? 1.00 96.49  1 
+ATOM 472 N N9  . A   B 2 384 184.787 192.546 206.393 B 370 ? 1.00 98.95  1 
+ATOM 473 C C8  . A   B 2 384 185.689 192.402 207.413 B 370 ? 1.00 100.90 1 
+ATOM 474 N N7  . A   B 2 384 185.884 191.165 207.789 B 370 ? 1.00 102.93 1 
+ATOM 475 C C5  . A   B 2 384 185.049 190.453 206.945 B 370 ? 1.00 97.71  1 
+ATOM 476 C C6  . A   B 2 384 184.783 189.089 206.823 B 370 ? 1.00 97.71  1 
+ATOM 477 N N6  . A   B 2 384 185.368 188.183 207.596 B 370 ? 1.00 103.88 1 
+ATOM 478 N N1  . A   B 2 384 183.901 188.682 205.885 B 370 ? 1.00 94.76  1 
+ATOM 479 C C2  . A   B 2 384 183.316 189.604 205.115 B 370 ? 1.00 98.11  1 
+ATOM 480 N N3  . A   B 2 384 183.484 190.923 205.136 B 370 ? 1.00 99.93  1 
+ATOM 481 C C4  . A   B 2 384 184.371 191.281 206.080 B 370 ? 1.00 97.83  1 
+ATOM 482 P P   . G   B 2 385 182.302 197.369 204.141 B 371 ? 1.00 105.06 1 
+ATOM 483 O OP1 . G   B 2 385 183.420 198.243 203.709 B 371 ? 1.00 94.31  1 
+ATOM 484 O OP2 . G   B 2 385 181.278 197.894 205.077 B 371 ? 1.00 92.06  1 
+ATOM 485 O O5' . G   B 2 385 181.546 196.848 202.836 B 371 ? 1.00 92.98  1 
+ATOM 486 C C5' . G   B 2 385 182.230 196.700 201.598 B 371 ? 1.00 89.94  1 
+ATOM 487 C C4' . G   B 2 385 182.523 195.253 201.281 B 371 ? 1.00 88.58  1 
+ATOM 488 O O4' . G   B 2 385 182.361 194.444 202.473 B 371 ? 1.00 89.33  1 
+ATOM 489 C C3' . G   B 2 385 181.620 194.577 200.260 B 371 ? 1.00 85.50  1 
+ATOM 490 O O3' . G   B 2 385 181.966 194.883 198.920 B 371 ? 1.00 92.28  1 
+ATOM 491 C C2' . G   B 2 385 181.788 193.103 200.597 B 371 ? 1.00 83.62  1 
+ATOM 492 O O2' . G   B 2 385 182.992 192.596 200.045 B 371 ? 1.00 86.55  1 
+ATOM 493 C C1' . G   B 2 385 181.933 193.148 202.118 B 371 ? 1.00 88.71  1 
+ATOM 494 N N9  . G   B 2 385 180.676 192.836 202.824 B 371 ? 1.00 90.69  1 
+ATOM 495 C C8  . G   B 2 385 179.878 193.696 203.537 B 371 ? 1.00 90.34  1 
+ATOM 496 N N7  . G   B 2 385 178.834 193.113 204.056 B 371 ? 1.00 87.56  1 
+ATOM 497 C C5  . G   B 2 385 178.955 191.787 203.670 B 371 ? 1.00 86.92  1 
+ATOM 498 C C6  . G   B 2 385 178.120 190.673 203.931 B 371 ? 1.00 90.06  1 
+ATOM 499 O O6  . G   B 2 385 177.071 190.632 204.584 B 371 ? 1.00 96.66  1 
+ATOM 500 N N1  . G   B 2 385 178.614 189.513 203.351 B 371 ? 1.00 87.07  1 
+ATOM 501 C C2  . G   B 2 385 179.760 189.427 202.609 B 371 ? 1.00 85.64  1 
+ATOM 502 N N2  . G   B 2 385 180.064 188.213 202.132 B 371 ? 1.00 84.73  1 
+ATOM 503 N N3  . G   B 2 385 180.546 190.457 202.357 B 371 ? 1.00 90.63  1 
+ATOM 504 C C4  . G   B 2 385 180.088 191.598 202.913 B 371 ? 1.00 88.82  1 
+ATOM 505 P P   . C   B 2 386 180.840 194.899 197.773 B 372 ? 1.00 96.03  1 
+ATOM 506 O OP1 . C   B 2 386 181.472 195.381 196.520 B 372 ? 1.00 82.93  1 
+ATOM 507 O OP2 . C   B 2 386 179.648 195.598 198.312 B 372 ? 1.00 84.07  1 
+ATOM 508 O O5' . C   B 2 386 180.458 193.366 197.565 B 372 ? 1.00 85.49  1 
+ATOM 509 C C5' . C   B 2 386 181.342 192.471 196.906 B 372 ? 1.00 80.19  1 
+ATOM 510 C C4' . C   B 2 386 180.901 191.036 197.063 B 372 ? 1.00 76.49  1 
+ATOM 511 O O4' . C   B 2 386 180.674 190.746 198.467 B 372 ? 1.00 80.11  1 
+ATOM 512 C C3' . C   B 2 386 179.587 190.661 196.398 B 372 ? 1.00 75.39  1 
+ATOM 513 O O3' . C   B 2 386 179.719 190.393 195.013 B 372 ? 1.00 81.27  1 
+ATOM 514 C C2' . C   B 2 386 179.145 189.447 197.202 B 372 ? 1.00 74.37  1 
+ATOM 515 O O2' . C   B 2 386 179.852 188.290 196.785 B 372 ? 1.00 81.00  1 
+ATOM 516 C C1' . C   B 2 386 179.618 189.817 198.605 B 372 ? 1.00 76.42  1 
+ATOM 517 N N1  . C   B 2 386 178.553 190.415 199.452 B 372 ? 1.00 74.99  1 
+ATOM 518 C C2  . C   B 2 386 177.519 189.642 200.009 B 372 ? 1.00 79.12  1 
+ATOM 519 O O2  . C   B 2 386 177.440 188.425 199.785 B 372 ? 1.00 85.95  1 
+ATOM 520 N N3  . C   B 2 386 176.593 190.248 200.792 B 372 ? 1.00 77.34  1 
+ATOM 521 C C4  . C   B 2 386 176.665 191.555 201.042 B 372 ? 1.00 78.31  1 
+ATOM 522 N N4  . C   B 2 386 175.740 192.119 201.819 B 372 ? 1.00 82.92  1 
+ATOM 523 C C5  . C   B 2 386 177.700 192.357 200.506 B 372 ? 1.00 78.54  1 
+ATOM 524 C C6  . C   B 2 386 178.601 191.747 199.736 B 372 ? 1.00 77.93  1 
+#
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_symmetry
+_struct_conn.pdbx_dist_value
+hydrog1  hydrog N1 . B 357 B 343 ? G 1_555 N3 . B 386 B 372 ? C 1_555 2.926 
+hydrog2  hydrog N2 . B 357 B 343 ? G 1_555 O2 . B 386 B 372 ? C 1_555 2.816 
+hydrog3  hydrog O6 . B 357 B 343 ? G 1_555 N4 . B 386 B 372 ? C 1_555 2.904 
+hydrog4  hydrog N3 . B 358 B 344 ? U 1_555 O6 . B 385 B 371 ? G 1_555 2.935 
+hydrog5  hydrog O2 . B 358 B 344 ? U 1_555 N1 . B 385 B 371 ? G 1_555 2.733 
+hydrog6  hydrog N2 . B 362 B 348 ? G 1_555 N7 . B 384 B 370 ? A 1_555 3.139 
+hydrog7  hydrog N3 . B 362 B 348 ? G 1_555 N6 . B 384 B 370 ? A 1_555 2.962 
+hydrog8  hydrog N6 . B 363 B 349 ? A 1_555 N3 . B 383 B 369 ? G 1_555 3.013 
+hydrog9  hydrog N7 . B 363 B 349 ? A 1_555 N2 . B 383 B 369 ? G 1_555 2.480 
+hydrog10 hydrog N6 . B 364 B 350 ? A 1_555 N3 . B 382 B 368 ? G 1_555 2.974 
+hydrog11 hydrog N7 . B 364 B 350 ? A 1_555 N2 . B 382 B 368 ? G 1_555 2.756 
+hydrog12 hydrog N1 . B 365 B 351 ? G 1_555 O2 . B 381 B 367 ? U 1_555 2.857 
+hydrog13 hydrog O6 . B 365 B 351 ? G 1_555 N3 . B 381 B 367 ? U 1_555 2.972 
+hydrog14 hydrog N3 . B 366 B 352 ? U 1_555 N1 . B 380 B 366 ? A 1_555 2.855 
+hydrog15 hydrog O4 . B 366 B 352 ? U 1_555 N6 . B 380 B 366 ? A 1_555 2.979 
+#
+_struct_conn_type.id hydrog
+#
+loop_
+_entity_src_gen.entity_id
+_entity_src_gen.pdbx_src_id
+_entity_src_gen.pdbx_alt_source_flag
+_entity_src_gen.pdbx_seq_type
+_entity_src_gen.pdbx_beg_seq_num
+_entity_src_gen.pdbx_end_seq_num
+_entity_src_gen.gene_src_common_name
+_entity_src_gen.gene_src_genus
+_entity_src_gen.pdbx_gene_src_gene
+_entity_src_gen.gene_src_species
+_entity_src_gen.gene_src_strain
+_entity_src_gen.gene_src_tissue
+_entity_src_gen.gene_src_tissue_fraction
+_entity_src_gen.gene_src_details
+_entity_src_gen.pdbx_gene_src_fragment
+_entity_src_gen.pdbx_gene_src_scientific_name
+_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id
+_entity_src_gen.pdbx_gene_src_variant
+_entity_src_gen.pdbx_gene_src_cell_line
+_entity_src_gen.pdbx_gene_src_atcc
+_entity_src_gen.pdbx_gene_src_organ
+_entity_src_gen.pdbx_gene_src_organelle
+_entity_src_gen.pdbx_gene_src_cell
+_entity_src_gen.pdbx_gene_src_cellular_location
+_entity_src_gen.host_org_common_name
+_entity_src_gen.pdbx_host_org_scientific_name
+_entity_src_gen.pdbx_host_org_ncbi_taxonomy_id
+_entity_src_gen.host_org_genus
+_entity_src_gen.pdbx_host_org_gene
+_entity_src_gen.pdbx_host_org_organ
+_entity_src_gen.host_org_species
+_entity_src_gen.pdbx_host_org_tissue
+_entity_src_gen.pdbx_host_org_tissue_fraction
+_entity_src_gen.pdbx_host_org_strain
+_entity_src_gen.pdbx_host_org_variant
+_entity_src_gen.pdbx_host_org_cell_line
+_entity_src_gen.pdbx_host_org_atcc
+_entity_src_gen.pdbx_host_org_culture_collection
+_entity_src_gen.pdbx_host_org_cell
+_entity_src_gen.pdbx_host_org_organelle
+_entity_src_gen.pdbx_host_org_cellular_location
+_entity_src_gen.pdbx_host_org_vector_type
+_entity_src_gen.pdbx_host_org_vector
+_entity_src_gen.host_org_details
+_entity_src_gen.expression_system_id
+_entity_src_gen.plasmid_name
+_entity_src_gen.plasmid_details
+_entity_src_gen.pdbx_description
+1 1 sample "Biological sequence" 1 427 ? ? "ltrA_2, ltrA, ERS852417_00966, FYL37_05080" ? ? ? ? ? ? "[Eubacterium] rectale" 39491 ? ? ? ? ? ? ? ? "Escherichia coli" 562 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+2 1 sample "Biological sequence" 1 652 ? ? ?                                            ? ? ? ? ? ? "[Eubacterium] rectale" 39491 ? ? ? ? ? ? ? ? "Escherichia coli" 562 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+#
+_cell.angle_alpha 90.00
+_cell.angle_alpha_esd ?
+_cell.angle_beta 90.00
+_cell.angle_beta_esd ?
+_cell.angle_gamma 90.00
+_cell.angle_gamma_esd ?
+_cell.entry_id 8T2S
+_cell.details ?
+_cell.formula_units_Z ?
+_cell.length_a 1.00
+_cell.length_a_esd ?
+_cell.length_b 1.00
+_cell.length_b_esd ?
+_cell.length_c 1.00
+_cell.length_c_esd ?
+_cell.volume ?
+_cell.volume_esd ?
+_cell.Z_PDB ?
+_cell.reciprocal_angle_alpha ?
+_cell.reciprocal_angle_beta ?
+_cell.reciprocal_angle_gamma ?
+_cell.reciprocal_angle_alpha_esd ?
+_cell.reciprocal_angle_beta_esd ?
+_cell.reciprocal_angle_gamma_esd ?
+_cell.reciprocal_length_a ?
+_cell.reciprocal_length_b ?
+_cell.reciprocal_length_c ?
+_cell.reciprocal_length_a_esd ?
+_cell.reciprocal_length_b_esd ?
+_cell.reciprocal_length_c_esd ?
+_cell.pdbx_unique_axis ?
+_cell.pdbx_esd_method ?
+#
+_symmetry.entry_id 8T2S
+_symmetry.cell_setting ?
+_symmetry.Int_Tables_number 1
+_symmetry.space_group_name_Hall ?
+_symmetry.space_group_name_H-M "P 1"
+_symmetry.pdbx_full_space_group_name_H-M ?
+#
+_pdbx_struct_assembly.id 1
+_pdbx_struct_assembly.details author_defined_assembly
+_pdbx_struct_assembly.method_details ?
+_pdbx_struct_assembly.oligomeric_details dimeric
+_pdbx_struct_assembly.oligomeric_count 2
+#
+_pdbx_struct_assembly_gen.assembly_id 1
+_pdbx_struct_assembly_gen.oper_expression 1
+_pdbx_struct_assembly_gen.asym_id_list A,B,C,D,E,F,G,H,I,J,K,L,M,N,O
+#
+_pdbx_struct_oper_list.id 1
+_pdbx_struct_oper_list.type "identity operation"
+_pdbx_struct_oper_list.name 1_555
+_pdbx_struct_oper_list.symmetry_operation ?
+_pdbx_struct_oper_list.matrix[1][1] 1.0000000000
+_pdbx_struct_oper_list.matrix[1][2] 0.0000000000
+_pdbx_struct_oper_list.matrix[1][3] 0.0000000000
+_pdbx_struct_oper_list.vector[1] 0.0000000000
+_pdbx_struct_oper_list.matrix[2][1] 0.0000000000
+_pdbx_struct_oper_list.matrix[2][2] 1.0000000000
+_pdbx_struct_oper_list.matrix[2][3] 0.0000000000
+_pdbx_struct_oper_list.vector[2] 0.0000000000
+_pdbx_struct_oper_list.matrix[3][1] 0.0000000000
+_pdbx_struct_oper_list.matrix[3][2] 0.0000000000
+_pdbx_struct_oper_list.matrix[3][3] 1.0000000000
+_pdbx_struct_oper_list.vector[3] 0.0000000000
+#

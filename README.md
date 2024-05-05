@@ -6,7 +6,7 @@ Applying [ARTEM](https://github.com/david-bogdan-r/ARTEM) to RNA tertiary motif 
 
 TODO
 
-## Check out [our other developments](https://https://github.com/febos/wiki)
+## Check out [our other developments](https://github.com/febos/wiki)
 
 ## Content 
 
@@ -16,7 +16,7 @@ Kink-turns and isosteric motifs in mmCIF format
 
 ### figures
 
-Sourse figure files
+Source figure files
 
 ### refmotifs
 
@@ -24,12 +24,12 @@ Two reference motifs - a Kt7 kink-turn and a k-junction, in mmCIF format
 
 ### sto_logo
 
-sourse files on the ribosomal k-junction conservation analysis
+Source files on the ribosomal k-junction conservation analysis
 
 ### files
 
 - **TableS1.xlsx** - Supplementary Table S1, 28,832 kink-turn matches obtained with ARTEM 
-- **TableS2.xlsx** - Supplementary Table S2, sourse benchmarking data
+- **TableS2.xlsx** - Supplementary Table S2, source benchmarking data
 - **artem_search.ipynb** - ARTEM search Jupyter Notebook 
 - **filteredhits.tsv** - 28,832 kink-turn hits obtained with ARTEM, source file for Supplementary Table S1
 - **kt7_13res_template.pdb** - 13-residue kink-turn template used for benchmarking

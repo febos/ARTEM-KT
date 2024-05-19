@@ -10,8 +10,12 @@ __pycache__/
 out.tmp
 .~lock.*
 
-#ARTEM
+#data & 3dparty
 ARTEM
+PDB
+urslib2
+urslib2_repo
+dssr-*
 
 # Distribution / packaging
 .Python

@@ -24,6 +24,15 @@ for file in hits:
                 hitdict[pdb] = {}
             hit = frozenset([x.split('=')[0]
                              for x in linesplit[-3].split(',')])
+            issub = False
+            for prev in sorted(hitdict[pdb].keys()):
+                if prev < hit:
+                    hitdict[pdb].pop(prev)
+                elif hit < prev:
+                    issub = True
+                    break
+            if issub:
+                continue
             if hit not in hitdict[pdb] or\
                rmsd < hitdict[pdb][hit][0]:
                 hitdict[pdb][hit] = [rmsd, size, ref, line]

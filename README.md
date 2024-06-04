@@ -4,7 +4,7 @@ Applying [ARTEM](https://github.com/david-bogdan-r/ARTEM) to RNA tertiary motif 
 
 ## Reference
 
-TODO
+[E.F. Baulin, D.R. Bohdan, D. Kowalski, M. Serwatka, J. Świerczyńska, Z. Żyra, J.M. Bujnicki, (2024) ARTEM: a method for RNA tertiary motif identification with backbone permutations, and its example application to kink-turn-like motifs. bioRxiv. DOI: 10.1101/2024.05.31.596898](https://doi.org/10.1101/2024.05.31.596898)
 
 ## Check out [our other developments](https://github.com/febos/wiki)
 

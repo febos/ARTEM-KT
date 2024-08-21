@@ -13,6 +13,8 @@ out.tmp
 #data & 3dparty
 ARTEM
 PDB
+res
+PDBDNA
 urslib2
 urslib2_repo
 dssr-*

@@ -2,10 +2,10 @@ import os,requests,json,glob
 
 
 date   = "2023-12-07"
-#folder = "./PDB"
-#mol    = "RNA"
-folder = "./PDBDNA"
-mol    = "DNA"
+folder = "./PDB"
+mol    = "RNA"
+#folder = "./PDBDNA"
+#mol    = "DNA"
 
 def DownloadPDB():
 
@@ -44,4 +44,5 @@ def DownloadPDB():
 
 if __name__ == "__main__":
 
+    os.makedirs(folder, exist_ok=True)
     DownloadPDB()

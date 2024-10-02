@@ -22,6 +22,10 @@ Source figure files
 
 The seven representative group II intron structures in mmCIF format
 
+### othermotifs
+
+Data on the G4, GNRA-tetraloop, i-motif, and parallel-pairing motif
+
 ### refmotifs
 
 Two reference motifs - a Kt7 kink-turn and a k-junction, in mmCIF format
@@ -40,6 +44,7 @@ Source files on the ribosomal k-junction conservation analysis
 - **annotated_hits.tsv** - 26,564 kink-turn hits obtained with ARTEM and annotated with urslib2, source file for Supplementary Table S1
 - **kt7_13res_template.pdb** - 13-residue kink-turn template used for benchmarking
 - **nrlist_3.312_4.0A.csv** - [Representative set of RNA structures](http://rna.bgsu.edu/rna3dhub/nrlist/release/3.312)
+- **pdb_download.py** - Python script that downloads RNA-containing PDB entries
 - **post-processing.ipynb** - Post-processing Jupyter Notebook
 - **unique_hits.py** - Python script for merging 1ffk_hits.tsv & 3d2g_hits.tsv
 - **unique_hits.tsv** - 26,564 kink-turn hits obtained with ARTEM, input for urslib2 annotation

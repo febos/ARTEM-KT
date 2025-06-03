@@ -1,0 +1,1 @@
+python ARTEM/artem.py r=./*.cif rres=#1 q=1e95.cif silent=1 sizemin=25 > pseudoknot_hits.txt
